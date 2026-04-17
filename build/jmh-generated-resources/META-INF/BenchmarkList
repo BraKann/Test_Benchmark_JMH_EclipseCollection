@@ -1,0 +1,2 @@
+JMH S 29 benchmark.CollectionBenchmark S 66 benchmark.jmh_generated.CollectionBenchmark_sumEclipseList_jmhTest S 14 sumEclipseList S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 29 benchmark.CollectionBenchmark S 63 benchmark.jmh_generated.CollectionBenchmark_sumJavaList_jmhTest S 11 sumJavaList S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
