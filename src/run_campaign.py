@@ -52,7 +52,7 @@ from typing import Any
 # Constantes
 # ---------------------------------------------------------------------------
 
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+REPO_ROOT = Path(__file__).resolve().parent
 
 # Métriques Kwollect demandées par défaut
 DEFAULT_METRICS = [
