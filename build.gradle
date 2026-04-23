@@ -3,19 +3,30 @@ plugins {
     id 'me.champeau.jmh' version '0.7.2'
 }
 
+// Version Eclipse Collections injectable via : ./gradlew jmhJar -PecVersion=11.1.0
+def ecVersion = project.findProperty('ecVersion') ?: '11.1.0'
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation 'org.eclipse.collections:eclipse-collections:11.1.0'
+    implementation "org.eclipse.collections:eclipse-collections-api:${ecVersion}"
+    implementation "org.eclipse.collections:eclipse-collections:${ecVersion}"
 
-    // Annotations JMH (obligatoire pour @Benchmark, @State, etc.)
     jmh 'org.openjdk.jmh:jmh-core:1.37'
     jmh 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
 jmh {
+    // Toute la configuration est passée directement à la CLI JMH dans run_campaign.py
+    // Ces valeurs servent uniquement pour un lancement manuel via ./gradlew jmh
     iterations = 5
     warmupIterations = 5
     fork = 2
@@ -24,8 +35,9 @@ jmh {
     resultsFile = project.file("${project.layout.buildDirectory.get()}/reports/jmh/results.txt")
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17) // adapte à ta version
+// Affiche la version utilisée lors du build
+tasks.named('compileJmhJava') {
+    doFirst {
+        println ">>> Compilation avec Eclipse Collections ${ecVersion}"
     }
 }
