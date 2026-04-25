@@ -44,7 +44,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-# REPO_ROOT = dossier parent de scripts/
+# REPO_ROOT = racine du projet (script a la racine)
 REPO_ROOT = Path(__file__).resolve().parent
 
 
@@ -108,8 +108,17 @@ def summarise_kwollect(records):
         if isinstance(ts, (int, float)):
             return float(ts)
         s = str(ts).strip()
+        # Normalise Z -> +00:00
         if s.endswith("Z"):
             s = s[:-1] + "+00:00"
+        # Python 3.9 fromisoformat n accepte pas les microsecondes > 6 chiffres.
+        # On tronque/padde la partie fractionnaire a exactement 6 chiffres.
+        import re
+        s = re.sub(
+            r"(\.)(\d+)([+-]|$)",
+            lambda m: "." + m.group(2)[:6].ljust(6, "0") + m.group(3),
+            s,
+        )
         return datetime.fromisoformat(s).timestamp()
 
     samples = sorted(
