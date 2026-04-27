@@ -1,0 +1,35 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :compileJmhJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJmhJava'.
+> Could not resolve all files for configuration ':jmhCompileClasspath'.
+   > Could not find org.eclipse.collections:eclipse-collections-api:7.2.0.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections-api/7.2.0/eclipse-collections-api-7.2.0.pom
+     Required by:
+         root project 'jmh-eclipse-benchmark'
+   > Could not find org.eclipse.collections:eclipse-collections:7.2.0.
+     Searched in the following locations:
+       - https://repo.maven.apache.org/maven2/org/eclipse/collections/eclipse-collections/7.2.0/eclipse-collections-7.2.0.pom
+     Required by:
+         root project 'jmh-eclipse-benchmark'
+
+* Try:
+> If the artifact you are trying to retrieve can be found in the repository but without metadata in 'Maven POM' format, you need to adjust the 'metadataSources { ... }' of the repository declaration.
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 9s
+1 actionable task: 1 executed
