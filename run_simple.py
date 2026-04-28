@@ -11,20 +11,12 @@ Commande de reference :
       --metrics wattmetre_power_watt \
       --includes 'benchmark.(List|Map|Set|Bag).*' \
       --iterations 5 \
-      --warmup-iterations 5 \
+      --warmup-iterations 2 \
       --forks 2 \
       --iteration-time 1s \
       --warmup-time 1s \
       --idle-seconds 30 \
       --rest-seconds 10
-
-Test local (sans Kwollect) :
-  python3 scripts/run_simple.py \
-      --versions 11.1.0 12.0.0 \
-      --site lyon \
-      --skip-kwollect \
-      --includes 'benchmark.(List|Map|Set|Bag).*' \
-      --iterations 3 --warmup-iterations 3 --forks 1
 """
 
 from __future__ import annotations

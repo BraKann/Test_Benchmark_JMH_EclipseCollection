@@ -17,17 +17,6 @@ Utilisation typique sur Grid5000 :
       --idle-seconds 30 \\
       --rest-seconds 15
 
-Test local (sans Kwollect, paramètres réduits) :
-  python3 run_campaign.py \\
-      --versions 11.1.0 12.0.0 \\
-      --site lyon \\
-      --skip-kwollect \\
-      --campaign-repeats 2 \\
-      --iterations 3 \\
-      --warmup-iterations 3 \\
-      --forks 1 \\
-      --iteration-time 1s \\
-      --warmup-time 1s
 """
 
 from __future__ import annotations
