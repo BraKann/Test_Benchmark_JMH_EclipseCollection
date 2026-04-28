@@ -1,0 +1,13 @@
+{
+  "version": "12.0.0",
+  "iteration": 2,
+  "started_at": "2026-04-25T19:43:48.496785Z",
+  "ended_at": "2026-04-25T21:20:15.774164Z",
+  "duration_seconds": 5787.277379,
+  "jmh_exit_code": 0,
+  "idle_window": {
+    "start": "2026-04-25T19:43:18.466625Z",
+    "end": "2026-04-25T19:43:48.496723Z"
+  },
+  "kwollect_wattmetre_power_watt_error": "Invalid isoformat string: '2026-04-25T21:43:48.04589+02:00'"
+}

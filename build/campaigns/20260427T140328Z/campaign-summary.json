@@ -1,0 +1,120 @@
+[
+  {
+    "version": "11.1.0",
+    "iterations": [
+      {
+        "version": "11.1.0",
+        "iteration": 1,
+        "started_at": "2026-04-27T14:04:23.449882Z",
+        "ended_at": "2026-04-27T14:38:47.200887Z",
+        "duration_seconds": 2063.751005,
+        "jmh_exit_code": 0,
+        "idle_window": {
+          "start": "2026-04-27T14:03:53.419703Z",
+          "end": "2026-04-27T14:04:23.449821Z"
+        },
+        "kwollect_wattmetre_power_watt": {
+          "samples": 85888,
+          "duration_seconds": 2064.981162071228,
+          "average_power_w": 110.10654047439313,
+          "peak_power_w": 383.8,
+          "energy_j": 227367.93190045503
+        },
+        "kwollect_idle_wattmetre_power_watt": {
+          "samples": 1298,
+          "duration_seconds": 30.978847980499268,
+          "average_power_w": 79.94313305215002,
+          "peak_power_w": 211.0,
+          "energy_j": 2476.5461659073817
+        },
+        "net_energy_j_wattmetre_power_watt": 62385.210721231706
+      },
+      {
+        "version": "11.1.0",
+        "iteration": 2,
+        "started_at": "2026-04-27T14:39:47.749225Z",
+        "ended_at": "2026-04-27T15:14:10.132359Z",
+        "duration_seconds": 2062.383134,
+        "jmh_exit_code": 0,
+        "idle_window": {
+          "start": "2026-04-27T14:39:17.719019Z",
+          "end": "2026-04-27T14:39:47.749153Z"
+        },
+        "kwollect_wattmetre_power_watt": {
+          "samples": 85739,
+          "duration_seconds": 2063.980889081955,
+          "average_power_w": 110.70017457147442,
+          "peak_power_w": 348.3,
+          "energy_j": 228483.0447335594
+        },
+        "kwollect_idle_wattmetre_power_watt": {
+          "samples": 1322,
+          "duration_seconds": 30.938997983932495,
+          "average_power_w": 79.14268547025115,
+          "peak_power_w": 141.0,
+          "energy_j": 2448.595386207104
+        },
+        "net_energy_j_wattmetre_power_watt": 65260.50504024656
+      }
+    ]
+  },
+  {
+    "version": "12.0.0",
+    "iterations": [
+      {
+        "version": "12.0.0",
+        "iteration": 1,
+        "started_at": "2026-04-27T15:15:14.801886Z",
+        "ended_at": "2026-04-27T15:49:37.600042Z",
+        "duration_seconds": 2062.798156,
+        "jmh_exit_code": 0,
+        "idle_window": {
+          "start": "2026-04-27T15:14:44.771658Z",
+          "end": "2026-04-27T15:15:14.801769Z"
+        },
+        "kwollect_wattmetre_power_watt": {
+          "samples": 85502,
+          "duration_seconds": 2063.981117963791,
+          "average_power_w": 110.84365784955855,
+          "peak_power_w": 411.5,
+          "energy_j": 228779.2168475278
+        },
+        "kwollect_idle_wattmetre_power_watt": {
+          "samples": 1309,
+          "duration_seconds": 30.958774089813232,
+          "average_power_w": 79.6062173225196,
+          "peak_power_w": 176.5,
+          "energy_j": 2464.510898232461
+        },
+        "net_energy_j_wattmetre_power_watt": 64567.65854849914
+      },
+      {
+        "version": "12.0.0",
+        "iteration": 2,
+        "started_at": "2026-04-27T15:50:39.531211Z",
+        "ended_at": "2026-04-27T16:25:00.470274Z",
+        "duration_seconds": 2060.939063,
+        "jmh_exit_code": 0,
+        "idle_window": {
+          "start": "2026-04-27T15:50:09.529229Z",
+          "end": "2026-04-27T15:50:39.531157Z"
+        },
+        "kwollect_wattmetre_power_watt": {
+          "samples": 85686,
+          "duration_seconds": 2061.9809188842773,
+          "average_power_w": 110.66308078295098,
+          "peak_power_w": 445.2,
+          "energy_j": 228185.16099939428
+        },
+        "kwollect_idle_wattmetre_power_watt": {
+          "samples": 1319,
+          "duration_seconds": 30.978930950164795,
+          "average_power_w": 78.44326975190242,
+          "peak_power_w": 133.2,
+          "energy_j": 2430.0886371493357
+        },
+        "net_energy_j_wattmetre_power_watt": 66518.36213825227
+      }
+    ]
+  }
+]

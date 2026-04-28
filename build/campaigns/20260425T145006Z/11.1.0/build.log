@@ -1,0 +1,31 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+
+> Task :compileJmhJava
+>>> Compilation avec Eclipse Collections 11.1.0
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processJmhResources NO-SOURCE
+> Task :jmhClasses
+
+> Task :jmhRunBytecodeGenerator
+Processing 4 classes from /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/classes/java/jmh with "reflection" generator
+Writing out Java source to /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/jmh-generated-sources and resources to /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/jmh-generated-resources
+Processing 0 classes from /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/classes/java/test with "reflection" generator
+Writing out Java source to /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/jmh-generated-sources and resources to /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/jmh-generated-resources
+
+> Task :jmhCompileGeneratedClasses
+> Task :jmhJar
+
+[Incubating] Problems report is available at: file:///home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 22s
+4 actionable tasks: 4 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.4.1/userguide/configuration_cache_enabling.html
