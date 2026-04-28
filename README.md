@@ -371,20 +371,3 @@ En plus des métriques individuelles de chaque run (identiques à `run_simple`),
 | **Ranking** | Classement des implémentations par version |
 
 ---
-
-## Comprendre les métriques JMH
-
-JMH opère en mode `avgt` (**Average Time**) dans ce projet — il mesure le **temps moyen nécessaire pour exécuter une opération**.
-
-| Champ JMH | Signification |
-|---|---|
-| `score` | Temps moyen mesuré (en `ms/op` ici). **Plus c'est bas, mieux c'est.** |
-| `scoreError` | Demi-largeur de l'intervalle de confiance (±). Une valeur élevée indique des mesures instables. |
-| `scoreUnit` | Unité : `ms/op` = millisecondes par opération |
-| `mode: avgt` | Mode Average Time — chaque opération est chronométrée, la moyenne est calculée |
-| `forks` | Nombre de JVM distinctes lancées. Plusieurs forks réduisent le biais d'une JVM unique. |
-| `warmupIterations` | Itérations exécutées avant la mesure pour laisser la JVM (JIT) se stabiliser. Non comptabilisées dans les résultats. |
-| `measurementIterations` | Itérations effectivement mesurées et intégrées au score final. |
-| `rawData` | Mesures brutes de chaque itération, pour chaque fork. Utile pour détecter la variabilité. |
-
----
