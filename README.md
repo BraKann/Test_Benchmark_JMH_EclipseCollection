@@ -30,8 +30,9 @@ Les benchmarks sont conçus pour être exécutés sur l'infrastructure **Grid500
 |---|---|
 | **Cluster** | `taurus` |
 | **Site** | Lyon |
-| **CPU** | Intel Xeon E5-2630 v3 @ 2.40 GHz (2 × 8 cœurs, 16 cœurs physiques, 32 threads) |
-| **RAM** | 128 Go DDR4 |
+| **CPU** | Intel Xeon E5-2630 v3 @ 2.30 GHz 2 CPUs/node, 6 cores/CPU |
+| **RAM** | 32 GiB |
+| **Storage** | disk0, 299 GB HDD RAID-0 (1 disk) Dell PERC H710 |
 | **OS** | Debian / Ubuntu (environnement Grid5000) |
 | **Mesure énergétique** | Wattmètre physique intégré (via **kwollect** / `wattmetre_power_watt`) |
 | **Réseau** | 10 Gbit/s |
