@@ -72,7 +72,7 @@ from pathlib import Path
 from typing import Any
 
 # REPO_ROOT = racine du projet
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 def utc_now() -> datetime:
