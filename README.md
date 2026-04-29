@@ -59,7 +59,7 @@ Utilisez **OAR** (le gestionnaire de ressources de Grid5000) pour réserver un n
 **Réservation interactive (pour tests) :**
 
 ```bash
-oarsub -l host=1,walltime=8:00:00 -p "cluster='taurus'"
+oarsub -I -l nodes=3,walltime=12:00:00 -p "cluster='taurus'" -t monitor='wattmetre_power_watt'
 ```
 
 Une fois la réservation accordée, l'identifiant du job OAR est disponible dans la variable d'environnement `$OAR_JOB_ID`. Le nom du nœud alloué est accessible via `hostname -s`.
