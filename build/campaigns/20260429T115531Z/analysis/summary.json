@@ -1,0 +1,415 @@
+{
+  "7.0.0": {
+    "version": "7.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "8.0.0": {
+    "version": "8.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 2,
+      "mean": 2335.1560645,
+      "std": 0.0187154999998711,
+      "min": 2335.137349,
+      "max": 2335.17478
+    }
+  },
+  "9.0.0": {
+    "version": "9.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 2,
+      "mean": 2335.1829785,
+      "std": 0.5440954999999121,
+      "min": 2334.638883,
+      "max": 2335.727074
+    }
+  },
+  "10.0.0": {
+    "version": "10.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 2,
+      "mean": 2338.6386945000004,
+      "std": 0.8025015000000622,
+      "min": 2337.836193,
+      "max": 2339.441196
+    }
+  },
+  "11.0.0": {
+    "version": "11.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 2,
+      "mean": 2340.914944,
+      "std": 0.8632219999999506,
+      "min": 2340.051722,
+      "max": 2341.778166
+    }
+  },
+  "12.0.0": {
+    "version": "12.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 2,
+      "mean": 2339.5572565,
+      "std": 0.3196135000000595,
+      "min": 2339.237643,
+      "max": 2339.87687
+    }
+  },
+  "13.0.0": {
+    "version": "13.0.0",
+    "energy_j_total": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "avg_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "peak_power_w": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "net_energy_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_pkg_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_dram_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "rapl_uncore_j": {
+      "n": 0,
+      "mean": null,
+      "std": null,
+      "min": null,
+      "max": null
+    },
+    "duration_s": {
+      "n": 2,
+      "mean": 2340.6903965,
+      "std": 0.1562774999999874,
+      "min": 2340.534119,
+      "max": 2340.846674
+    }
+  }
+}

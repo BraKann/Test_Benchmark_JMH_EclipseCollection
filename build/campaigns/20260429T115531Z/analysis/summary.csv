@@ -1,0 +1,8 @@
+version,energy_j_total_mean,energy_j_total_std,energy_j_total_n,avg_power_w_mean,avg_power_w_std,avg_power_w_n,peak_power_w_mean,peak_power_w_std,peak_power_w_n,net_energy_j_mean,net_energy_j_std,net_energy_j_n,rapl_pkg_j_mean,rapl_pkg_j_std,rapl_pkg_j_n,rapl_dram_j_mean,rapl_dram_j_std,rapl_dram_j_n,rapl_uncore_j_mean,rapl_uncore_j_std,rapl_uncore_j_n,duration_s_mean,duration_s_std,duration_s_n
+7.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,,,0
+8.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,2335.1560645,0.0187154999998711,2
+9.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,2335.1829785,0.5440954999999121,2
+10.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,2338.6386945000004,0.8025015000000622,2
+11.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,2340.914944,0.8632219999999506,2
+12.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,2339.5572565,0.3196135000000595,2
+13.0.0,,,0,,,0,,,0,,,0,,,0,,,0,,,0,2340.6903965,0.1562774999999874,2

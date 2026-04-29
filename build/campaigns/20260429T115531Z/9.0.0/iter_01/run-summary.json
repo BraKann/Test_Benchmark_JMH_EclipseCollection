@@ -1,0 +1,51 @@
+{
+  "version": "9.0.0",
+  "iteration": 1,
+  "node": "taurus-7",
+  "site": "lyon",
+  "job_id": "2024992",
+  "metrics": [
+    "wattmetre_power_watt",
+    "bmc_power_watt",
+    "rapl_package_energy_joule",
+    "rapl_dram_energy_joule",
+    "rapl_uncore_energy_joule"
+  ],
+  "idle_window": {
+    "start": "2026-04-29T13:46:27.746831Z",
+    "end": "2026-04-29T13:46:47.766936Z",
+    "duration_seconds": 20
+  },
+  "jmh_command": [
+    "java",
+    "-jar",
+    "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/libs/jmh-eclipse-benchmark-jmh.jar",
+    ".*",
+    "-rf",
+    "JSON",
+    "-rff",
+    "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/campaigns/20260429T115531Z/9.0.0/iter_01/jmh-results.json",
+    "-o",
+    "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/campaigns/20260429T115531Z/9.0.0/iter_01/jmh-human.txt",
+    "-i",
+    "5",
+    "-wi",
+    "3",
+    "-f",
+    "1",
+    "-r",
+    "1s",
+    "-w",
+    "1s",
+    "-tu",
+    "ms",
+    "-bm",
+    "avgt"
+  ],
+  "started_at": "2026-04-29T13:46:47.767148Z",
+  "ended_at": "2026-04-29T14:25:43.494222Z",
+  "duration_seconds": 2335.727074,
+  "exit_code": 0,
+  "kwollect_benchmark_error": "Invalid isoformat string: '2026-04-29T15:46:47.09151+02:00'",
+  "kwollect_idle_error": "Invalid isoformat string: '2026-04-29T15:46:27.11238+02:00'"
+}
