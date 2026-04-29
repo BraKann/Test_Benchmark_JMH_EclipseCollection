@@ -127,6 +127,13 @@ def parse_timestamp(value: Any) -> float:
     candidate = str(value).strip()
     if candidate.endswith("Z"):
         candidate = candidate[:-1] + "+00:00"
+    # Normalise les microsecondes à 6 chiffres (Python 3.9 ne gère pas 5 chiffres)
+    import re
+    candidate = re.sub(
+        r'(\d{2}:\d{2}:\d{2})\.(\d+)([+-])',
+        lambda m: m.group(1) + '.' + m.group(2).ljust(6, '0')[:6] + m.group(3),
+        candidate
+    )
     return datetime.fromisoformat(candidate).timestamp()
 
 
