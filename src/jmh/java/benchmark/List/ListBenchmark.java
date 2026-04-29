@@ -2,6 +2,7 @@ package benchmark.List;
 
 import org.eclipse.collections.api.list.ImmutableList;
 import org.eclipse.collections.api.list.MutableList;
+import org.eclipse.collections.api.block.procedure.Procedure;
 import org.eclipse.collections.api.list.primitive.MutableIntList;
 import org.eclipse.collections.api.list.primitive.MutableLongList;
 import org.eclipse.collections.impl.list.mutable.FastList;
@@ -15,9 +16,9 @@ import java.util.concurrent.TimeUnit;
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @State(Scope.Thread)
-@Warmup(iterations = 5, time = 1)
+@Warmup(iterations = 2, time = 1)
 @Measurement(iterations = 5, time = 1)
-@Fork(2)
+@Fork(1)
 public class ListBenchmark {
 
     @Param({"1000", "10000", "100000", "1000000"})
@@ -33,12 +34,12 @@ public class ListBenchmark {
         fastList = new FastList<>(size);
         intArrayList = new IntArrayList(size);
         longArrayList = new LongArrayList(size);
-        immutableList = fastList.toImmutable();
         for (int i = 0; i < size; i++) {
             fastList.add(i);
             intArrayList.add(i);
             longArrayList.add(i);
         }
+        immutableList = fastList.toImmutable();
     }
 
     @Benchmark
@@ -79,12 +80,12 @@ public class ListBenchmark {
 
     @Benchmark
     public void traverse_fastList_forEach(Blackhole blackhole) {
-        fastList.forEach(blackhole::consume);
+        fastList.forEach((Procedure<Integer>) each -> blackhole.consume(each));
     }
 
     @Benchmark
     public void traverse_immutableList_forEach(Blackhole blackhole) {
-        immutableList.forEach(blackhole::consume);
+        immutableList.forEach((Procedure<Integer>) each -> blackhole.consume(each));
     }
 
     @Benchmark

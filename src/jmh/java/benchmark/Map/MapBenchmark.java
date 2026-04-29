@@ -15,9 +15,9 @@ import java.util.concurrent.TimeUnit;
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @State(Scope.Thread)
-@Warmup(iterations = 5, time = 1)
+@Warmup(iterations = 2, time = 1)
 @Measurement(iterations = 5, time = 1)
-@Fork(2)
+@Fork(1)
 public class MapBenchmark {
 
     @Param({"1000", "10000", "100000", "1000000"})
@@ -33,14 +33,13 @@ public class MapBenchmark {
         unifiedMap = new UnifiedMap<>(size * 2);
         intIntMap = new IntIntHashMap(size * 2);
         intObjectMap = new IntObjectHashMap<>(size * 2);
-        immutableMap = unifiedMap.toImmutable();
         for (int i = 0; i < size; i++) {
             int value = i * 3;
             unifiedMap.put(i, value);
             intIntMap.put(i, value);
             intObjectMap.put(i, value);
         }
-
+        immutableMap = unifiedMap.toImmutable();
     }
 
     @Benchmark
