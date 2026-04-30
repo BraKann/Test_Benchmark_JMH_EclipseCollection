@@ -59,7 +59,7 @@ Utilisez **OAR** (le gestionnaire de ressources de Grid5000) pour réserver un n
 **Réservation interactive (pour tests) :**
 
 ```bash
-oarsub -I -l nodes=3,walltime=12:00:00 -p "cluster='taurus'" -t monitor='wattmetre_power_watt'
+oarsub walltime=12:00:00 -p "cluster='taurus'" -t monitor='wattmetre_power_watt'
 ```
 
 Une fois la réservation accordée, l'identifiant du job OAR est disponible dans la variable d'environnement `$OAR_JOB_ID`. Le nom du nœud alloué est accessible via `hostname -s`.
@@ -349,6 +349,23 @@ Le script appelle en interne la CLI JMH sur le JAR compilé, pilote la collecte 
 `run_campaign.py` lance une **campagne de benchmarks systématique** sur plusieurs versions d'Eclipse Collections et/ou plusieurs configurations. Il est conçu pour comparer l'évolution des performances entre versions.
 
 La campagne peut prendre plusieurs heures selon le nombre de versions et de benchmarks configurés. Il est recommandé de lancer via une réservation OAR batch pour éviter toute interruption.
+
+```bash
+python3 src/scripts/run_campaign.py \
+  --versions 7.1.2 8.1.0 8.2.0 9.2.0 10.2.0 10.4.0 11.0.0 11.1.0 12.0.0 13.0.0 \
+  --site lyon \
+  --node "$NODE" \
+  --job-id "$OAR_JOB_ID" \
+  --campaign-repeats 2 \
+  --forks 1 \
+  --warmup-iterations 3 \
+  --iterations 5 \
+  --idle-seconds 20 \
+  --rest-seconds 10 \
+  --inter-iteration-rest 20 \
+  --kwollect-settle-seconds 10 \
+  --gradle-command /home/cchiaber/Test_Benchmark_JMH_EclipseCollection/gradlew
+```
 
 ### Sorties de la campagne
 
