@@ -1,0 +1,4575 @@
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_hashBag_reject
+# Parameters: (size = 1000)
+
+# Run progress: 0.00% complete, ETA 00:36:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.043 ms/op
+# Warmup Iteration   2: 0.040 ms/op
+# Warmup Iteration   3: 0.040 ms/op
+Iteration   1: 0.040 ms/op
+Iteration   2: 0.040 ms/op
+Iteration   3: 0.040 ms/op
+Iteration   4: 0.040 ms/op
+Iteration   5: 0.040 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_hashBag_reject":
+  0.040 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.040, 0.040, 0.040), stdev = 0.001
+  CI (99.9%): [0.039, 0.040] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_hashBag_reject
+# Parameters: (size = 10000)
+
+# Run progress: 0.36% complete, ETA 00:38:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.091 ms/op
+# Warmup Iteration   2: 0.083 ms/op
+# Warmup Iteration   3: 0.082 ms/op
+Iteration   1: 0.082 ms/op
+Iteration   2: 0.082 ms/op
+Iteration   3: 0.082 ms/op
+Iteration   4: 0.082 ms/op
+Iteration   5: 0.082 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_hashBag_reject":
+  0.082 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.082, 0.082, 0.082), stdev = 0.001
+  CI (99.9%): [0.082, 0.083] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_hashBag_reject
+# Parameters: (size = 100000)
+
+# Run progress: 0.72% complete, ETA 00:38:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.409 ms/op
+# Warmup Iteration   2: 0.398 ms/op
+# Warmup Iteration   3: 0.409 ms/op
+Iteration   1: 0.405 ms/op
+Iteration   2: 0.399 ms/op
+Iteration   3: 0.400 ms/op
+Iteration   4: 0.403 ms/op
+Iteration   5: 0.401 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_hashBag_reject":
+  0.402 ±(99.9%) 0.009 ms/op [Average]
+  (min, avg, max) = (0.399, 0.402, 0.405), stdev = 0.002
+  CI (99.9%): [0.393, 0.411] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_hashBag_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 1.09% complete, ETA 00:38:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.898 ms/op
+# Warmup Iteration   2: 2.858 ms/op
+# Warmup Iteration   3: 2.838 ms/op
+Iteration   1: 2.843 ms/op
+Iteration   2: 2.843 ms/op
+Iteration   3: 2.841 ms/op
+Iteration   4: 2.848 ms/op
+Iteration   5: 2.842 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_hashBag_reject":
+  2.844 ±(99.9%) 0.010 ms/op [Average]
+  (min, avg, max) = (2.841, 2.844, 2.848), stdev = 0.003
+  CI (99.9%): [2.833, 2.854] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_immutableBag_reject
+# Parameters: (size = 1000)
+
+# Run progress: 1.45% complete, ETA 00:38:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.074 ms/op
+# Warmup Iteration   2: 0.059 ms/op
+# Warmup Iteration   3: 0.059 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.059 ms/op
+Iteration   3: 0.059 ms/op
+Iteration   4: 0.059 ms/op
+Iteration   5: 0.059 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_immutableBag_reject":
+  0.059 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.059, 0.059, 0.059), stdev = 0.001
+  CI (99.9%): [0.059, 0.060] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_immutableBag_reject
+# Parameters: (size = 10000)
+
+# Run progress: 1.81% complete, ETA 00:38:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.071 ms/op
+# Warmup Iteration   2: 0.059 ms/op
+# Warmup Iteration   3: 0.060 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.059 ms/op
+Iteration   3: 0.059 ms/op
+Iteration   4: 0.059 ms/op
+Iteration   5: 0.059 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_immutableBag_reject":
+  0.059 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.059, 0.059, 0.059), stdev = 0.001
+  CI (99.9%): [0.058, 0.059] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_immutableBag_reject
+# Parameters: (size = 100000)
+
+# Run progress: 2.17% complete, ETA 00:37:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.067 ms/op
+# Warmup Iteration   2: 0.055 ms/op
+# Warmup Iteration   3: 0.055 ms/op
+Iteration   1: 0.055 ms/op
+Iteration   2: 0.055 ms/op
+Iteration   3: 0.055 ms/op
+Iteration   4: 0.055 ms/op
+Iteration   5: 0.055 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_immutableBag_reject":
+  0.055 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.055, 0.055, 0.055), stdev = 0.001
+  CI (99.9%): [0.054, 0.056] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.delete_immutableBag_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 2.54% complete, ETA 00:37:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.061 ms/op
+# Warmup Iteration   2: 0.054 ms/op
+# Warmup Iteration   3: 0.054 ms/op
+Iteration   1: 0.054 ms/op
+Iteration   2: 0.054 ms/op
+Iteration   3: 0.054 ms/op
+Iteration   4: 0.054 ms/op
+Iteration   5: 0.054 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.delete_immutableBag_reject":
+  0.054 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.054, 0.054, 0.054), stdev = 0.001
+  CI (99.9%): [0.053, 0.054] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_hashBag
+# Parameters: (size = 1000)
+
+# Run progress: 2.90% complete, ETA 00:37:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.022 ms/op
+# Warmup Iteration   2: 0.020 ms/op
+# Warmup Iteration   3: 0.020 ms/op
+Iteration   1: 0.020 ms/op
+Iteration   2: 0.020 ms/op
+Iteration   3: 0.020 ms/op
+Iteration   4: 0.020 ms/op
+Iteration   5: 0.020 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_hashBag":
+  0.020 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.020, 0.020, 0.020), stdev = 0.001
+  CI (99.9%): [0.020, 0.020] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_hashBag
+# Parameters: (size = 10000)
+
+# Run progress: 3.26% complete, ETA 00:37:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.246 ms/op
+# Warmup Iteration   2: 0.229 ms/op
+# Warmup Iteration   3: 0.223 ms/op
+Iteration   1: 0.223 ms/op
+Iteration   2: 0.223 ms/op
+Iteration   3: 0.223 ms/op
+Iteration   4: 0.222 ms/op
+Iteration   5: 0.223 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_hashBag":
+  0.223 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.222, 0.223, 0.223), stdev = 0.001
+  CI (99.9%): [0.222, 0.224] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_hashBag
+# Parameters: (size = 100000)
+
+# Run progress: 3.62% complete, ETA 00:37:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.296 ms/op
+# Warmup Iteration   2: 1.858 ms/op
+# Warmup Iteration   3: 1.864 ms/op
+Iteration   1: 1.860 ms/op
+Iteration   2: 1.860 ms/op
+Iteration   3: 1.858 ms/op
+Iteration   4: 1.856 ms/op
+Iteration   5: 1.857 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_hashBag":
+  1.858 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (1.856, 1.858, 1.860), stdev = 0.002
+  CI (99.9%): [1.851, 1.865] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_hashBag
+# Parameters: (size = 1000000)
+
+# Run progress: 3.99% complete, ETA 00:37:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 24.913 ms/op
+# Warmup Iteration   2: 24.057 ms/op
+# Warmup Iteration   3: 21.978 ms/op
+Iteration   1: 22.441 ms/op
+Iteration   2: 22.167 ms/op
+Iteration   3: 21.928 ms/op
+Iteration   4: 21.492 ms/op
+Iteration   5: 22.067 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_hashBag":
+  22.019 ±(99.9%) 1.345 ms/op [Average]
+  (min, avg, max) = (21.492, 22.019, 22.441), stdev = 0.349
+  CI (99.9%): [20.674, 23.364] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_immutableBag
+# Parameters: (size = 1000)
+
+# Run progress: 4.35% complete, ETA 00:37:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.041 ms/op
+# Warmup Iteration   2: 0.036 ms/op
+# Warmup Iteration   3: 0.036 ms/op
+Iteration   1: 0.036 ms/op
+Iteration   2: 0.036 ms/op
+Iteration   3: 0.036 ms/op
+Iteration   4: 0.036 ms/op
+Iteration   5: 0.036 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_immutableBag":
+  0.036 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.036, 0.036, 0.036), stdev = 0.001
+  CI (99.9%): [0.036, 0.036] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_immutableBag
+# Parameters: (size = 10000)
+
+# Run progress: 4.71% complete, ETA 00:36:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.320 ms/op
+# Warmup Iteration   2: 0.312 ms/op
+# Warmup Iteration   3: 0.303 ms/op
+Iteration   1: 0.303 ms/op
+Iteration   2: 0.303 ms/op
+Iteration   3: 0.301 ms/op
+Iteration   4: 0.304 ms/op
+Iteration   5: 0.303 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_immutableBag":
+  0.303 ±(99.9%) 0.004 ms/op [Average]
+  (min, avg, max) = (0.301, 0.303, 0.304), stdev = 0.001
+  CI (99.9%): [0.299, 0.306] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_immutableBag
+# Parameters: (size = 100000)
+
+# Run progress: 5.07% complete, ETA 00:36:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.960 ms/op
+# Warmup Iteration   2: 2.280 ms/op
+# Warmup Iteration   3: 2.279 ms/op
+Iteration   1: 2.287 ms/op
+Iteration   2: 2.282 ms/op
+Iteration   3: 2.290 ms/op
+Iteration   4: 2.275 ms/op
+Iteration   5: 2.280 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_immutableBag":
+  2.283 ±(99.9%) 0.023 ms/op [Average]
+  (min, avg, max) = (2.275, 2.283, 2.290), stdev = 0.006
+  CI (99.9%): [2.260, 2.306] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.insert_immutableBag
+# Parameters: (size = 1000000)
+
+# Run progress: 5.43% complete, ETA 00:36:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 28.461 ms/op
+# Warmup Iteration   2: 27.286 ms/op
+# Warmup Iteration   3: 25.203 ms/op
+Iteration   1: 26.764 ms/op
+Iteration   2: 28.591 ms/op
+Iteration   3: 24.686 ms/op
+Iteration   4: 26.014 ms/op
+Iteration   5: 25.044 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.insert_immutableBag":
+  26.220 ±(99.9%) 5.995 ms/op [Average]
+  (min, avg, max) = (24.686, 26.220, 28.591), stdev = 1.557
+  CI (99.9%): [20.225, 32.215] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_contains
+# Parameters: (size = 1000)
+
+# Run progress: 5.80% complete, ETA 00:36:31
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_contains":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_contains
+# Parameters: (size = 10000)
+
+# Run progress: 6.16% complete, ETA 00:36:22
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_contains":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_contains
+# Parameters: (size = 100000)
+
+# Run progress: 6.52% complete, ETA 00:36:13
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_contains":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_contains
+# Parameters: (size = 1000000)
+
+# Run progress: 6.88% complete, ETA 00:36:05
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_contains":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf
+# Parameters: (size = 1000)
+
+# Run progress: 7.25% complete, ETA 00:35:57
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf
+# Parameters: (size = 10000)
+
+# Run progress: 7.61% complete, ETA 00:35:48
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf
+# Parameters: (size = 100000)
+
+# Run progress: 7.97% complete, ETA 00:35:39
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf
+# Parameters: (size = 1000000)
+
+# Run progress: 8.33% complete, ETA 00:35:30
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_hashBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf
+# Parameters: (size = 1000)
+
+# Run progress: 8.70% complete, ETA 00:35:22
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf
+# Parameters: (size = 10000)
+
+# Run progress: 9.06% complete, ETA 00:35:13
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf
+# Parameters: (size = 100000)
+
+# Run progress: 9.42% complete, ETA 00:35:05
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf
+# Parameters: (size = 1000000)
+
+# Run progress: 9.78% complete, ETA 00:34:56
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁵ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   1: ≈ 10⁻⁵ ms/op
+Iteration   2: ≈ 10⁻⁵ ms/op
+Iteration   3: ≈ 10⁻⁵ ms/op
+Iteration   4: ≈ 10⁻⁵ ms/op
+Iteration   5: ≈ 10⁻⁵ ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.search_immutableBag_occurrencesOf":
+  ≈ 10⁻⁵ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEach
+# Parameters: (size = 1000)
+
+# Run progress: 10.14% complete, ETA 00:34:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.005 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEach":
+  0.005 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.005, 0.005), stdev = 0.001
+  CI (99.9%): [0.005, 0.005] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEach
+# Parameters: (size = 10000)
+
+# Run progress: 10.51% complete, ETA 00:34:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.030 ms/op
+# Warmup Iteration   2: 0.030 ms/op
+# Warmup Iteration   3: 0.030 ms/op
+Iteration   1: 0.029 ms/op
+Iteration   2: 0.029 ms/op
+Iteration   3: 0.029 ms/op
+Iteration   4: 0.029 ms/op
+Iteration   5: 0.029 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEach":
+  0.029 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.029, 0.029, 0.029), stdev = 0.001
+  CI (99.9%): [0.029, 0.030] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEach
+# Parameters: (size = 100000)
+
+# Run progress: 10.87% complete, ETA 00:34:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.206 ms/op
+# Warmup Iteration   2: 0.203 ms/op
+# Warmup Iteration   3: 0.202 ms/op
+Iteration   1: 0.202 ms/op
+Iteration   2: 0.202 ms/op
+Iteration   3: 0.202 ms/op
+Iteration   4: 0.202 ms/op
+Iteration   5: 0.202 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEach":
+  0.202 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.202, 0.202, 0.202), stdev = 0.001
+  CI (99.9%): [0.202, 0.203] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEach
+# Parameters: (size = 1000000)
+
+# Run progress: 11.23% complete, ETA 00:34:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.616 ms/op
+# Warmup Iteration   2: 1.582 ms/op
+# Warmup Iteration   3: 1.581 ms/op
+Iteration   1: 1.579 ms/op
+Iteration   2: 1.583 ms/op
+Iteration   3: 1.580 ms/op
+Iteration   4: 1.579 ms/op
+Iteration   5: 1.579 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEach":
+  1.580 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (1.579, 1.580, 1.583), stdev = 0.002
+  CI (99.9%): [1.573, 1.587] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences
+# Parameters: (size = 1000)
+
+# Run progress: 11.59% complete, ETA 00:34:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.003 ms/op
+Iteration   1: 0.003 ms/op
+Iteration   2: 0.003 ms/op
+Iteration   3: 0.003 ms/op
+Iteration   4: 0.003 ms/op
+Iteration   5: 0.003 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences":
+  0.003 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.003, 0.003, 0.003), stdev = 0.001
+  CI (99.9%): [0.003, 0.003] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences
+# Parameters: (size = 10000)
+
+# Run progress: 11.96% complete, ETA 00:34:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.020 ms/op
+# Warmup Iteration   2: 0.019 ms/op
+# Warmup Iteration   3: 0.019 ms/op
+Iteration   1: 0.020 ms/op
+Iteration   2: 0.020 ms/op
+Iteration   3: 0.020 ms/op
+Iteration   4: 0.020 ms/op
+Iteration   5: 0.020 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences":
+  0.020 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.020, 0.020, 0.020), stdev = 0.001
+  CI (99.9%): [0.020, 0.020] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences
+# Parameters: (size = 100000)
+
+# Run progress: 12.32% complete, ETA 00:33:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.147 ms/op
+# Warmup Iteration   2: 0.146 ms/op
+# Warmup Iteration   3: 0.145 ms/op
+Iteration   1: 0.145 ms/op
+Iteration   2: 0.145 ms/op
+Iteration   3: 0.145 ms/op
+Iteration   4: 0.145 ms/op
+Iteration   5: 0.145 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences":
+  0.145 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.145, 0.145, 0.145), stdev = 0.001
+  CI (99.9%): [0.145, 0.146] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences
+# Parameters: (size = 1000000)
+
+# Run progress: 12.68% complete, ETA 00:33:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.151 ms/op
+# Warmup Iteration   2: 1.138 ms/op
+# Warmup Iteration   3: 1.139 ms/op
+Iteration   1: 1.137 ms/op
+Iteration   2: 1.138 ms/op
+Iteration   3: 1.138 ms/op
+Iteration   4: 1.138 ms/op
+Iteration   5: 1.138 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_hashBag_forEachWithOccurrences":
+  1.138 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (1.137, 1.138, 1.138), stdev = 0.001
+  CI (99.9%): [1.136, 1.139] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach
+# Parameters: (size = 1000)
+
+# Run progress: 13.04% complete, ETA 00:33:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.005 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.006), stdev = 0.001
+  CI (99.9%): [0.006, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach
+# Parameters: (size = 10000)
+
+# Run progress: 13.41% complete, ETA 00:33:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.007 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+Iteration   1: 0.007 ms/op
+Iteration   2: 0.007 ms/op
+Iteration   3: 0.007 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.007 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach":
+  0.007 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.007, 0.007, 0.007), stdev = 0.001
+  CI (99.9%): [0.007, 0.007] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach
+# Parameters: (size = 100000)
+
+# Run progress: 13.77% complete, ETA 00:33:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.013 ms/op
+# Warmup Iteration   2: 0.012 ms/op
+# Warmup Iteration   3: 0.012 ms/op
+Iteration   1: 0.012 ms/op
+Iteration   2: 0.012 ms/op
+Iteration   3: 0.012 ms/op
+Iteration   4: 0.012 ms/op
+Iteration   5: 0.012 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach":
+  0.012 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.012, 0.012, 0.012), stdev = 0.001
+  CI (99.9%): [0.012, 0.012] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach
+# Parameters: (size = 1000000)
+
+# Run progress: 14.13% complete, ETA 00:33:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.050 ms/op
+# Warmup Iteration   2: 0.049 ms/op
+# Warmup Iteration   3: 0.049 ms/op
+Iteration   1: 0.049 ms/op
+Iteration   2: 0.049 ms/op
+Iteration   3: 0.049 ms/op
+Iteration   4: 0.049 ms/op
+Iteration   5: 0.049 ms/op
+
+
+Result "benchmark.Bag.BagBenchmark.traverse_immutableBag_forEach":
+  0.049 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.049, 0.049, 0.049), stdev = 0.001
+  CI (99.9%): [0.049, 0.050] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_fastList_reject
+# Parameters: (size = 1000)
+
+# Run progress: 14.49% complete, ETA 00:33:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_fastList_reject":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.006), stdev = 0.001
+  CI (99.9%): [0.006, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_fastList_reject
+# Parameters: (size = 10000)
+
+# Run progress: 14.86% complete, ETA 00:32:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.081 ms/op
+# Warmup Iteration   2: 0.066 ms/op
+# Warmup Iteration   3: 0.066 ms/op
+Iteration   1: 0.066 ms/op
+Iteration   2: 0.067 ms/op
+Iteration   3: 0.067 ms/op
+Iteration   4: 0.067 ms/op
+Iteration   5: 0.077 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_fastList_reject":
+  0.069 ±(99.9%) 0.018 ms/op [Average]
+  (min, avg, max) = (0.066, 0.069, 0.077), stdev = 0.005
+  CI (99.9%): [0.051, 0.087] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_fastList_reject
+# Parameters: (size = 100000)
+
+# Run progress: 15.22% complete, ETA 00:32:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.830 ms/op
+# Warmup Iteration   2: 0.771 ms/op
+# Warmup Iteration   3: 0.752 ms/op
+Iteration   1: 0.753 ms/op
+Iteration   2: 0.714 ms/op
+Iteration   3: 0.706 ms/op
+Iteration   4: 0.706 ms/op
+Iteration   5: 0.706 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_fastList_reject":
+  0.717 ±(99.9%) 0.079 ms/op [Average]
+  (min, avg, max) = (0.706, 0.717, 0.753), stdev = 0.021
+  CI (99.9%): [0.638, 0.796] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_fastList_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 15.58% complete, ETA 00:32:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 16.860 ms/op
+# Warmup Iteration   2: 15.515 ms/op
+# Warmup Iteration   3: 13.033 ms/op
+Iteration   1: 13.262 ms/op
+Iteration   2: 13.044 ms/op
+Iteration   3: 13.221 ms/op
+Iteration   4: 13.893 ms/op
+Iteration   5: 13.952 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_fastList_reject":
+  13.474 ±(99.9%) 1.608 ms/op [Average]
+  (min, avg, max) = (13.044, 13.474, 13.952), stdev = 0.418
+  CI (99.9%): [11.866, 15.082] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_immutableList_reject
+# Parameters: (size = 1000)
+
+# Run progress: 15.94% complete, ETA 00:32:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.011 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.007 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_immutableList_reject":
+  0.008 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.007, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.007, 0.008] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_immutableList_reject
+# Parameters: (size = 10000)
+
+# Run progress: 16.30% complete, ETA 00:32:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.088 ms/op
+# Warmup Iteration   2: 0.085 ms/op
+# Warmup Iteration   3: 0.076 ms/op
+Iteration   1: 0.075 ms/op
+Iteration   2: 0.076 ms/op
+Iteration   3: 0.077 ms/op
+Iteration   4: 0.077 ms/op
+Iteration   5: 0.077 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_immutableList_reject":
+  0.076 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.075, 0.076, 0.077), stdev = 0.001
+  CI (99.9%): [0.073, 0.079] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_immutableList_reject
+# Parameters: (size = 100000)
+
+# Run progress: 16.67% complete, ETA 00:32:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.147 ms/op
+# Warmup Iteration   2: 0.902 ms/op
+# Warmup Iteration   3: 0.912 ms/op
+Iteration   1: 0.902 ms/op
+Iteration   2: 0.910 ms/op
+Iteration   3: 0.870 ms/op
+Iteration   4: 0.860 ms/op
+Iteration   5: 0.860 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_immutableList_reject":
+  0.881 ±(99.9%) 0.092 ms/op [Average]
+  (min, avg, max) = (0.860, 0.881, 0.910), stdev = 0.024
+  CI (99.9%): [0.789, 0.972] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_immutableList_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 17.03% complete, ETA 00:32:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 19.379 ms/op
+# Warmup Iteration   2: 16.732 ms/op
+# Warmup Iteration   3: 16.613 ms/op
+Iteration   1: 16.472 ms/op
+Iteration   2: 16.801 ms/op
+Iteration   3: 16.683 ms/op
+Iteration   4: 17.375 ms/op
+Iteration   5: 18.199 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_immutableList_reject":
+  17.106 ±(99.9%) 2.683 ms/op [Average]
+  (min, avg, max) = (16.472, 17.106, 18.199), stdev = 0.697
+  CI (99.9%): [14.423, 19.789] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_intArrayList_reject
+# Parameters: (size = 1000)
+
+# Run progress: 17.39% complete, ETA 00:32:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.007 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_intArrayList_reject":
+  0.005 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.005, 0.005), stdev = 0.001
+  CI (99.9%): [0.005, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_intArrayList_reject
+# Parameters: (size = 10000)
+
+# Run progress: 17.75% complete, ETA 00:31:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.064 ms/op
+# Warmup Iteration   2: 0.051 ms/op
+# Warmup Iteration   3: 0.052 ms/op
+Iteration   1: 0.052 ms/op
+Iteration   2: 0.053 ms/op
+Iteration   3: 0.054 ms/op
+Iteration   4: 0.051 ms/op
+Iteration   5: 0.051 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_intArrayList_reject":
+  0.052 ±(99.9%) 0.005 ms/op [Average]
+  (min, avg, max) = (0.051, 0.052, 0.054), stdev = 0.001
+  CI (99.9%): [0.047, 0.058] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_intArrayList_reject
+# Parameters: (size = 100000)
+
+# Run progress: 18.12% complete, ETA 00:31:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.662 ms/op
+# Warmup Iteration   2: 0.523 ms/op
+# Warmup Iteration   3: 0.525 ms/op
+Iteration   1: 0.521 ms/op
+Iteration   2: 0.520 ms/op
+Iteration   3: 0.527 ms/op
+Iteration   4: 0.521 ms/op
+Iteration   5: 0.523 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_intArrayList_reject":
+  0.523 ±(99.9%) 0.011 ms/op [Average]
+  (min, avg, max) = (0.520, 0.523, 0.527), stdev = 0.003
+  CI (99.9%): [0.512, 0.533] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_intArrayList_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 18.48% complete, ETA 00:31:34
+# Fork: 1 of 1
+# Warmup Iteration   1: 6.523 ms/op
+# Warmup Iteration   2: 4.835 ms/op
+# Warmup Iteration   3: 4.771 ms/op
+Iteration   1: 5.040 ms/op
+Iteration   2: 4.728 ms/op
+Iteration   3: 4.725 ms/op
+Iteration   4: 4.749 ms/op
+Iteration   5: 4.726 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_intArrayList_reject":
+  4.793 ±(99.9%) 0.531 ms/op [Average]
+  (min, avg, max) = (4.725, 4.793, 5.040), stdev = 0.138
+  CI (99.9%): [4.262, 5.325] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_longArrayList_reject
+# Parameters: (size = 1000)
+
+# Run progress: 18.84% complete, ETA 00:31:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.009 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+Iteration   1: 0.007 ms/op
+Iteration   2: 0.007 ms/op
+Iteration   3: 0.007 ms/op
+Iteration   4: 0.007 ms/op
+Iteration   5: 0.007 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_longArrayList_reject":
+  0.007 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.007, 0.007, 0.007), stdev = 0.001
+  CI (99.9%): [0.007, 0.007] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_longArrayList_reject
+# Parameters: (size = 10000)
+
+# Run progress: 19.20% complete, ETA 00:31:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.089 ms/op
+# Warmup Iteration   2: 0.069 ms/op
+# Warmup Iteration   3: 0.069 ms/op
+Iteration   1: 0.069 ms/op
+Iteration   2: 0.069 ms/op
+Iteration   3: 0.068 ms/op
+Iteration   4: 0.068 ms/op
+Iteration   5: 0.072 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_longArrayList_reject":
+  0.069 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (0.068, 0.069, 0.072), stdev = 0.002
+  CI (99.9%): [0.063, 0.076] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_longArrayList_reject
+# Parameters: (size = 100000)
+
+# Run progress: 19.57% complete, ETA 00:31:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.977 ms/op
+# Warmup Iteration   2: 0.757 ms/op
+# Warmup Iteration   3: 0.759 ms/op
+Iteration   1: 0.758 ms/op
+Iteration   2: 0.753 ms/op
+Iteration   3: 0.751 ms/op
+Iteration   4: 0.744 ms/op
+Iteration   5: 0.747 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_longArrayList_reject":
+  0.750 ±(99.9%) 0.021 ms/op [Average]
+  (min, avg, max) = (0.744, 0.750, 0.758), stdev = 0.006
+  CI (99.9%): [0.729, 0.772] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.delete_longArrayList_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 19.93% complete, ETA 00:31:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 9.424 ms/op
+# Warmup Iteration   2: 7.831 ms/op
+# Warmup Iteration   3: 7.128 ms/op
+Iteration   1: 6.857 ms/op
+Iteration   2: 6.850 ms/op
+Iteration   3: 6.888 ms/op
+Iteration   4: 6.880 ms/op
+Iteration   5: 6.850 ms/op
+
+
+Result "benchmark.List.ListBenchmark.delete_longArrayList_reject":
+  6.865 ±(99.9%) 0.069 ms/op [Average]
+  (min, avg, max) = (6.850, 6.865, 6.888), stdev = 0.018
+  CI (99.9%): [6.796, 6.934] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_fastList
+# Parameters: (size = 1000)
+
+# Run progress: 20.29% complete, ETA 00:30:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.007 ms/op
+# Warmup Iteration   3: 0.007 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_fastList":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.006), stdev = 0.001
+  CI (99.9%): [0.006, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_fastList
+# Parameters: (size = 10000)
+
+# Run progress: 20.65% complete, ETA 00:30:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.083 ms/op
+# Warmup Iteration   2: 0.064 ms/op
+# Warmup Iteration   3: 0.064 ms/op
+Iteration   1: 0.064 ms/op
+Iteration   2: 0.079 ms/op
+Iteration   3: 0.065 ms/op
+Iteration   4: 0.064 ms/op
+Iteration   5: 0.065 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_fastList":
+  0.067 ±(99.9%) 0.025 ms/op [Average]
+  (min, avg, max) = (0.064, 0.067, 0.079), stdev = 0.006
+  CI (99.9%): [0.043, 0.092] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_fastList
+# Parameters: (size = 100000)
+
+# Run progress: 21.01% complete, ETA 00:30:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.810 ms/op
+# Warmup Iteration   2: 0.666 ms/op
+# Warmup Iteration   3: 0.811 ms/op
+Iteration   1: 0.621 ms/op
+Iteration   2: 0.619 ms/op
+Iteration   3: 0.620 ms/op
+Iteration   4: 0.620 ms/op
+Iteration   5: 0.624 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_fastList":
+  0.621 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (0.619, 0.621, 0.624), stdev = 0.002
+  CI (99.9%): [0.614, 0.628] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_fastList
+# Parameters: (size = 1000000)
+
+# Run progress: 21.38% complete, ETA 00:30:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 21.767 ms/op
+# Warmup Iteration   2: 18.938 ms/op
+# Warmup Iteration   3: 22.525 ms/op
+Iteration   1: 21.868 ms/op
+Iteration   2: 18.941 ms/op
+Iteration   3: 17.570 ms/op
+Iteration   4: 18.640 ms/op
+Iteration   5: 20.994 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_fastList":
+  19.603 ±(99.9%) 6.825 ms/op [Average]
+  (min, avg, max) = (17.570, 19.603, 21.868), stdev = 1.773
+  CI (99.9%): [12.777, 26.428] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_immutableList
+# Parameters: (size = 1000)
+
+# Run progress: 21.74% complete, ETA 00:30:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.010 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_immutableList":
+  0.008 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.008, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.008, 0.008] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_immutableList
+# Parameters: (size = 10000)
+
+# Run progress: 22.10% complete, ETA 00:30:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.099 ms/op
+# Warmup Iteration   2: 0.074 ms/op
+# Warmup Iteration   3: 0.074 ms/op
+Iteration   1: 0.074 ms/op
+Iteration   2: 0.074 ms/op
+Iteration   3: 0.075 ms/op
+Iteration   4: 0.075 ms/op
+Iteration   5: 0.074 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_immutableList":
+  0.074 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.074, 0.074, 0.075), stdev = 0.001
+  CI (99.9%): [0.073, 0.076] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_immutableList
+# Parameters: (size = 100000)
+
+# Run progress: 22.46% complete, ETA 00:30:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.058 ms/op
+# Warmup Iteration   2: 0.822 ms/op
+# Warmup Iteration   3: 0.828 ms/op
+Iteration   1: 0.819 ms/op
+Iteration   2: 0.807 ms/op
+Iteration   3: 0.791 ms/op
+Iteration   4: 0.784 ms/op
+Iteration   5: 0.783 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_immutableList":
+  0.797 ±(99.9%) 0.061 ms/op [Average]
+  (min, avg, max) = (0.783, 0.797, 0.819), stdev = 0.016
+  CI (99.9%): [0.736, 0.858] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_immutableList
+# Parameters: (size = 1000000)
+
+# Run progress: 22.83% complete, ETA 00:29:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 30.970 ms/op
+# Warmup Iteration   2: 28.955 ms/op
+# Warmup Iteration   3: 34.766 ms/op
+Iteration   1: 33.597 ms/op
+Iteration   2: 25.748 ms/op
+Iteration   3: 33.465 ms/op
+Iteration   4: 31.179 ms/op
+Iteration   5: 31.528 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_immutableList":
+  31.104 ±(99.9%) 12.278 ms/op [Average]
+  (min, avg, max) = (25.748, 31.104, 33.597), stdev = 3.188
+  CI (99.9%): [18.826, 43.381] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_intArrayList
+# Parameters: (size = 1000)
+
+# Run progress: 23.19% complete, ETA 00:29:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_intArrayList":
+  0.002 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_intArrayList
+# Parameters: (size = 10000)
+
+# Run progress: 23.55% complete, ETA 00:29:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.024 ms/op
+# Warmup Iteration   2: 0.017 ms/op
+# Warmup Iteration   3: 0.017 ms/op
+Iteration   1: 0.017 ms/op
+Iteration   2: 0.017 ms/op
+Iteration   3: 0.017 ms/op
+Iteration   4: 0.017 ms/op
+Iteration   5: 0.017 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_intArrayList":
+  0.017 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.017, 0.017, 0.017), stdev = 0.001
+  CI (99.9%): [0.016, 0.017] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_intArrayList
+# Parameters: (size = 100000)
+
+# Run progress: 23.91% complete, ETA 00:29:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.237 ms/op
+# Warmup Iteration   2: 0.169 ms/op
+# Warmup Iteration   3: 0.170 ms/op
+Iteration   1: 0.169 ms/op
+Iteration   2: 0.169 ms/op
+Iteration   3: 0.170 ms/op
+Iteration   4: 0.170 ms/op
+Iteration   5: 0.170 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_intArrayList":
+  0.170 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.169, 0.170, 0.170), stdev = 0.001
+  CI (99.9%): [0.168, 0.171] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_intArrayList
+# Parameters: (size = 1000000)
+
+# Run progress: 24.28% complete, ETA 00:29:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.948 ms/op
+# Warmup Iteration   2: 1.872 ms/op
+# Warmup Iteration   3: 1.749 ms/op
+Iteration   1: 1.720 ms/op
+Iteration   2: 1.688 ms/op
+Iteration   3: 1.689 ms/op
+Iteration   4: 1.687 ms/op
+Iteration   5: 1.684 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_intArrayList":
+  1.694 ±(99.9%) 0.056 ms/op [Average]
+  (min, avg, max) = (1.684, 1.694, 1.720), stdev = 0.015
+  CI (99.9%): [1.637, 1.750] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_longArrayList
+# Parameters: (size = 1000)
+
+# Run progress: 24.64% complete, ETA 00:29:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_longArrayList":
+  0.002 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_longArrayList
+# Parameters: (size = 10000)
+
+# Run progress: 25.00% complete, ETA 00:29:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.035 ms/op
+# Warmup Iteration   2: 0.026 ms/op
+# Warmup Iteration   3: 0.024 ms/op
+Iteration   1: 0.024 ms/op
+Iteration   2: 0.024 ms/op
+Iteration   3: 0.024 ms/op
+Iteration   4: 0.024 ms/op
+Iteration   5: 0.024 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_longArrayList":
+  0.024 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.024, 0.024, 0.024), stdev = 0.001
+  CI (99.9%): [0.024, 0.024] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_longArrayList
+# Parameters: (size = 100000)
+
+# Run progress: 25.36% complete, ETA 00:28:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.361 ms/op
+# Warmup Iteration   2: 0.255 ms/op
+# Warmup Iteration   3: 0.254 ms/op
+Iteration   1: 0.252 ms/op
+Iteration   2: 0.252 ms/op
+Iteration   3: 0.252 ms/op
+Iteration   4: 0.252 ms/op
+Iteration   5: 0.251 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_longArrayList":
+  0.252 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.251, 0.252, 0.252), stdev = 0.001
+  CI (99.9%): [0.249, 0.254] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.insert_longArrayList
+# Parameters: (size = 1000000)
+
+# Run progress: 25.72% complete, ETA 00:28:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.045 ms/op
+# Warmup Iteration   2: 2.658 ms/op
+# Warmup Iteration   3: 2.556 ms/op
+Iteration   1: 2.552 ms/op
+Iteration   2: 2.539 ms/op
+Iteration   3: 2.539 ms/op
+Iteration   4: 2.568 ms/op
+Iteration   5: 2.544 ms/op
+
+
+Result "benchmark.List.ListBenchmark.insert_longArrayList":
+  2.548 ±(99.9%) 0.047 ms/op [Average]
+  (min, avg, max) = (2.539, 2.548, 2.568), stdev = 0.012
+  CI (99.9%): [2.501, 2.595] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_contains
+# Parameters: (size = 1000)
+
+# Run progress: 26.09% complete, ETA 00:28:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_contains":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_contains
+# Parameters: (size = 10000)
+
+# Run progress: 26.45% complete, ETA 00:28:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_contains":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.006, 0.006), stdev = 0.001
+  CI (99.9%): [0.005, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_contains
+# Parameters: (size = 100000)
+
+# Run progress: 26.81% complete, ETA 00:28:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.069 ms/op
+# Warmup Iteration   2: 0.067 ms/op
+# Warmup Iteration   3: 0.067 ms/op
+Iteration   1: 0.067 ms/op
+Iteration   2: 0.067 ms/op
+Iteration   3: 0.067 ms/op
+Iteration   4: 0.067 ms/op
+Iteration   5: 0.066 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_contains":
+  0.067 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.066, 0.067, 0.067), stdev = 0.001
+  CI (99.9%): [0.065, 0.069] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_contains
+# Parameters: (size = 1000000)
+
+# Run progress: 27.17% complete, ETA 00:28:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.701 ms/op
+# Warmup Iteration   2: 0.687 ms/op
+# Warmup Iteration   3: 0.687 ms/op
+Iteration   1: 0.688 ms/op
+Iteration   2: 0.689 ms/op
+Iteration   3: 0.689 ms/op
+Iteration   4: 0.689 ms/op
+Iteration   5: 0.697 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_contains":
+  0.690 ±(99.9%) 0.013 ms/op [Average]
+  (min, avg, max) = (0.688, 0.690, 0.697), stdev = 0.003
+  CI (99.9%): [0.677, 0.704] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_detect
+# Parameters: (size = 1000)
+
+# Run progress: 27.54% complete, ETA 00:28:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_detect":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_detect
+# Parameters: (size = 10000)
+
+# Run progress: 27.90% complete, ETA 00:27:57
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.005 ms/op
+# Warmup Iteration   3: 0.006 ms/op
+Iteration   1: 0.006 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.006 ms/op
+Iteration   4: 0.006 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_detect":
+  0.006 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.006, 0.006, 0.006), stdev = 0.001
+  CI (99.9%): [0.006, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_detect
+# Parameters: (size = 100000)
+
+# Run progress: 28.26% complete, ETA 00:27:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.067 ms/op
+# Warmup Iteration   2: 0.066 ms/op
+# Warmup Iteration   3: 0.066 ms/op
+Iteration   1: 0.066 ms/op
+Iteration   2: 0.065 ms/op
+Iteration   3: 0.065 ms/op
+Iteration   4: 0.065 ms/op
+Iteration   5: 0.065 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_detect":
+  0.065 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.065, 0.065, 0.066), stdev = 0.001
+  CI (99.9%): [0.063, 0.068] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_fastList_detect
+# Parameters: (size = 1000000)
+
+# Run progress: 28.62% complete, ETA 00:27:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.697 ms/op
+# Warmup Iteration   2: 0.679 ms/op
+# Warmup Iteration   3: 0.678 ms/op
+Iteration   1: 0.674 ms/op
+Iteration   2: 0.667 ms/op
+Iteration   3: 0.668 ms/op
+Iteration   4: 0.667 ms/op
+Iteration   5: 0.667 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_fastList_detect":
+  0.669 ±(99.9%) 0.011 ms/op [Average]
+  (min, avg, max) = (0.667, 0.669, 0.674), stdev = 0.003
+  CI (99.9%): [0.657, 0.680] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_contains
+# Parameters: (size = 1000)
+
+# Run progress: 28.99% complete, ETA 00:27:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_contains":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_contains
+# Parameters: (size = 10000)
+
+# Run progress: 29.35% complete, ETA 00:27:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.006 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.006 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_contains":
+  0.005 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.005, 0.006), stdev = 0.001
+  CI (99.9%): [0.005, 0.006] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_contains
+# Parameters: (size = 100000)
+
+# Run progress: 29.71% complete, ETA 00:27:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.078 ms/op
+# Warmup Iteration   2: 0.067 ms/op
+# Warmup Iteration   3: 0.067 ms/op
+Iteration   1: 0.067 ms/op
+Iteration   2: 0.066 ms/op
+Iteration   3: 0.065 ms/op
+Iteration   4: 0.065 ms/op
+Iteration   5: 0.067 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_contains":
+  0.066 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.065, 0.066, 0.067), stdev = 0.001
+  CI (99.9%): [0.063, 0.069] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_contains
+# Parameters: (size = 1000000)
+
+# Run progress: 30.07% complete, ETA 00:27:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.792 ms/op
+# Warmup Iteration   2: 0.773 ms/op
+# Warmup Iteration   3: 0.773 ms/op
+Iteration   1: 0.773 ms/op
+Iteration   2: 0.698 ms/op
+Iteration   3: 0.685 ms/op
+Iteration   4: 0.683 ms/op
+Iteration   5: 0.685 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_contains":
+  0.705 ±(99.9%) 0.148 ms/op [Average]
+  (min, avg, max) = (0.683, 0.705, 0.773), stdev = 0.038
+  CI (99.9%): [0.557, 0.853] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_detect
+# Parameters: (size = 1000)
+
+# Run progress: 30.43% complete, ETA 00:26:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_detect":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_detect
+# Parameters: (size = 10000)
+
+# Run progress: 30.80% complete, ETA 00:26:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.006 ms/op
+# Warmup Iteration   2: 0.006 ms/op
+# Warmup Iteration   3: 0.005 ms/op
+Iteration   1: 0.005 ms/op
+Iteration   2: 0.005 ms/op
+Iteration   3: 0.005 ms/op
+Iteration   4: 0.005 ms/op
+Iteration   5: 0.005 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_detect":
+  0.005 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.005, 0.005, 0.005), stdev = 0.001
+  CI (99.9%): [0.005, 0.005] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_detect
+# Parameters: (size = 100000)
+
+# Run progress: 31.16% complete, ETA 00:26:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.066 ms/op
+# Warmup Iteration   2: 0.065 ms/op
+# Warmup Iteration   3: 0.065 ms/op
+Iteration   1: 0.065 ms/op
+Iteration   2: 0.065 ms/op
+Iteration   3: 0.064 ms/op
+Iteration   4: 0.065 ms/op
+Iteration   5: 0.064 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_detect":
+  0.065 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.064, 0.065, 0.065), stdev = 0.001
+  CI (99.9%): [0.063, 0.066] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_immutableList_detect
+# Parameters: (size = 1000000)
+
+# Run progress: 31.52% complete, ETA 00:26:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.693 ms/op
+# Warmup Iteration   2: 0.681 ms/op
+# Warmup Iteration   3: 0.676 ms/op
+Iteration   1: 0.678 ms/op
+Iteration   2: 0.686 ms/op
+Iteration   3: 0.685 ms/op
+Iteration   4: 0.686 ms/op
+Iteration   5: 0.685 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_immutableList_detect":
+  0.684 ±(99.9%) 0.012 ms/op [Average]
+  (min, avg, max) = (0.678, 0.684, 0.686), stdev = 0.003
+  CI (99.9%): [0.672, 0.696] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_anySatisfy
+# Parameters: (size = 1000)
+
+# Run progress: 31.88% complete, ETA 00:26:24
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_anySatisfy":
+  ≈ 10⁻⁴ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_anySatisfy
+# Parameters: (size = 10000)
+
+# Run progress: 32.25% complete, ETA 00:26:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_anySatisfy":
+  0.002 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_anySatisfy
+# Parameters: (size = 100000)
+
+# Run progress: 32.61% complete, ETA 00:26:07
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.021 ms/op
+# Warmup Iteration   2: 0.020 ms/op
+# Warmup Iteration   3: 0.020 ms/op
+Iteration   1: 0.020 ms/op
+Iteration   2: 0.020 ms/op
+Iteration   3: 0.020 ms/op
+Iteration   4: 0.020 ms/op
+Iteration   5: 0.020 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_anySatisfy":
+  0.020 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.020, 0.020, 0.020), stdev = 0.001
+  CI (99.9%): [0.020, 0.020] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_anySatisfy
+# Parameters: (size = 1000000)
+
+# Run progress: 32.97% complete, ETA 00:25:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.208 ms/op
+# Warmup Iteration   2: 0.203 ms/op
+# Warmup Iteration   3: 0.203 ms/op
+Iteration   1: 0.203 ms/op
+Iteration   2: 0.203 ms/op
+Iteration   3: 0.203 ms/op
+Iteration   4: 0.203 ms/op
+Iteration   5: 0.203 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_anySatisfy":
+  0.203 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.203, 0.203, 0.203), stdev = 0.001
+  CI (99.9%): [0.202, 0.204] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_contains
+# Parameters: (size = 1000)
+
+# Run progress: 33.33% complete, ETA 00:25:50
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   2: ≈ 10⁻⁴ ms/op
+# Warmup Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   1: ≈ 10⁻⁴ ms/op
+Iteration   2: ≈ 10⁻⁴ ms/op
+Iteration   3: ≈ 10⁻⁴ ms/op
+Iteration   4: ≈ 10⁻⁴ ms/op
+Iteration   5: ≈ 10⁻⁴ ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_contains":
+  ≈ 10⁻⁴ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_contains
+# Parameters: (size = 10000)
+
+# Run progress: 33.70% complete, ETA 00:25:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.002 ms/op
+# Warmup Iteration   2: 0.002 ms/op
+# Warmup Iteration   3: 0.002 ms/op
+Iteration   1: 0.002 ms/op
+Iteration   2: 0.002 ms/op
+Iteration   3: 0.002 ms/op
+Iteration   4: 0.002 ms/op
+Iteration   5: 0.002 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_contains":
+  0.002 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.002, 0.002, 0.002), stdev = 0.001
+  CI (99.9%): [0.002, 0.002] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_contains
+# Parameters: (size = 100000)
+
+# Run progress: 34.06% complete, ETA 00:25:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.020 ms/op
+# Warmup Iteration   2: 0.020 ms/op
+# Warmup Iteration   3: 0.020 ms/op
+Iteration   1: 0.020 ms/op
+Iteration   2: 0.020 ms/op
+Iteration   3: 0.020 ms/op
+Iteration   4: 0.020 ms/op
+Iteration   5: 0.020 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_contains":
+  0.020 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.020, 0.020, 0.020), stdev = 0.001
+  CI (99.9%): [0.020, 0.020] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.search_intArrayList_contains
+# Parameters: (size = 1000000)
+
+# Run progress: 34.42% complete, ETA 00:25:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.205 ms/op
+# Warmup Iteration   2: 0.204 ms/op
+# Warmup Iteration   3: 0.203 ms/op
+Iteration   1: 0.203 ms/op
+Iteration   2: 0.203 ms/op
+Iteration   3: 0.205 ms/op
+Iteration   4: 0.203 ms/op
+Iteration   5: 0.203 ms/op
+
+
+Result "benchmark.List.ListBenchmark.search_intArrayList_contains":
+  0.203 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.203, 0.203, 0.205), stdev = 0.001
+  CI (99.9%): [0.200, 0.206] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_forEach
+# Parameters: (size = 1000)
+
+# Run progress: 34.78% complete, ETA 00:25:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_forEach":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_forEach
+# Parameters: (size = 10000)
+
+# Run progress: 35.14% complete, ETA 00:25:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.011 ms/op
+Iteration   1: 0.011 ms/op
+Iteration   2: 0.011 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.011 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_forEach":
+  0.011 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.011, 0.011, 0.011), stdev = 0.001
+  CI (99.9%): [0.011, 0.011] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_forEach
+# Parameters: (size = 100000)
+
+# Run progress: 35.51% complete, ETA 00:24:59
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.107 ms/op
+# Warmup Iteration   2: 0.106 ms/op
+# Warmup Iteration   3: 0.105 ms/op
+Iteration   1: 0.106 ms/op
+Iteration   2: 0.106 ms/op
+Iteration   3: 0.105 ms/op
+Iteration   4: 0.106 ms/op
+Iteration   5: 0.106 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_forEach":
+  0.106 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.105, 0.106, 0.106), stdev = 0.001
+  CI (99.9%): [0.105, 0.107] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_forEach
+# Parameters: (size = 1000000)
+
+# Run progress: 35.87% complete, ETA 00:24:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.806 ms/op
+# Warmup Iteration   2: 1.769 ms/op
+# Warmup Iteration   3: 1.772 ms/op
+Iteration   1: 1.776 ms/op
+Iteration   2: 1.775 ms/op
+Iteration   3: 1.772 ms/op
+Iteration   4: 1.773 ms/op
+Iteration   5: 1.772 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_forEach":
+  1.774 ±(99.9%) 0.006 ms/op [Average]
+  (min, avg, max) = (1.772, 1.774, 1.776), stdev = 0.002
+  CI (99.9%): [1.767, 1.780] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_injectInto
+# Parameters: (size = 1000)
+
+# Run progress: 36.23% complete, ETA 00:24:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_injectInto":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_injectInto
+# Parameters: (size = 10000)
+
+# Run progress: 36.59% complete, ETA 00:24:34
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.011 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.011 ms/op
+Iteration   1: 0.011 ms/op
+Iteration   2: 0.011 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.011 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_injectInto":
+  0.011 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.011, 0.011, 0.011), stdev = 0.001
+  CI (99.9%): [0.011, 0.011] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_injectInto
+# Parameters: (size = 100000)
+
+# Run progress: 36.96% complete, ETA 00:24:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.128 ms/op
+# Warmup Iteration   2: 0.126 ms/op
+# Warmup Iteration   3: 0.126 ms/op
+Iteration   1: 0.126 ms/op
+Iteration   2: 0.126 ms/op
+Iteration   3: 0.126 ms/op
+Iteration   4: 0.126 ms/op
+Iteration   5: 0.126 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_injectInto":
+  0.126 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.126, 0.126, 0.126), stdev = 0.001
+  CI (99.9%): [0.126, 0.126] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_fastList_injectInto
+# Parameters: (size = 1000000)
+
+# Run progress: 37.32% complete, ETA 00:24:17
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.115 ms/op
+# Warmup Iteration   2: 2.067 ms/op
+# Warmup Iteration   3: 2.025 ms/op
+Iteration   1: 2.028 ms/op
+Iteration   2: 2.048 ms/op
+Iteration   3: 2.071 ms/op
+Iteration   4: 2.024 ms/op
+Iteration   5: 2.024 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_fastList_injectInto":
+  2.039 ±(99.9%) 0.079 ms/op [Average]
+  (min, avg, max) = (2.024, 2.039, 2.071), stdev = 0.021
+  CI (99.9%): [1.960, 2.119] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_forEach
+# Parameters: (size = 1000)
+
+# Run progress: 37.68% complete, ETA 00:24:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_forEach":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_forEach
+# Parameters: (size = 10000)
+
+# Run progress: 38.04% complete, ETA 00:24:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.008 ms/op
+# Warmup Iteration   2: 0.008 ms/op
+# Warmup Iteration   3: 0.008 ms/op
+Iteration   1: 0.008 ms/op
+Iteration   2: 0.008 ms/op
+Iteration   3: 0.008 ms/op
+Iteration   4: 0.008 ms/op
+Iteration   5: 0.008 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_forEach":
+  0.008 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.008, 0.008, 0.008), stdev = 0.001
+  CI (99.9%): [0.008, 0.008] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_forEach
+# Parameters: (size = 100000)
+
+# Run progress: 38.41% complete, ETA 00:23:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.108 ms/op
+# Warmup Iteration   2: 0.106 ms/op
+# Warmup Iteration   3: 0.106 ms/op
+Iteration   1: 0.106 ms/op
+Iteration   2: 0.106 ms/op
+Iteration   3: 0.106 ms/op
+Iteration   4: 0.106 ms/op
+Iteration   5: 0.106 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_forEach":
+  0.106 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.106, 0.106, 0.106), stdev = 0.001
+  CI (99.9%): [0.105, 0.106] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_forEach
+# Parameters: (size = 1000000)
+
+# Run progress: 38.77% complete, ETA 00:23:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.874 ms/op
+# Warmup Iteration   2: 1.937 ms/op
+# Warmup Iteration   3: 1.836 ms/op
+Iteration   1: 1.830 ms/op
+Iteration   2: 1.831 ms/op
+Iteration   3: 1.823 ms/op
+Iteration   4: 1.801 ms/op
+Iteration   5: 1.804 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_forEach":
+  1.818 ±(99.9%) 0.055 ms/op [Average]
+  (min, avg, max) = (1.801, 1.818, 1.831), stdev = 0.014
+  CI (99.9%): [1.763, 1.873] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_injectInto
+# Parameters: (size = 1000)
+
+# Run progress: 39.13% complete, ETA 00:23:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 ms/op
+# Warmup Iteration   2: 0.001 ms/op
+# Warmup Iteration   3: 0.001 ms/op
+Iteration   1: 0.001 ms/op
+Iteration   2: 0.001 ms/op
+Iteration   3: 0.001 ms/op
+Iteration   4: 0.001 ms/op
+Iteration   5: 0.001 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_injectInto":
+  0.001 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.001, 0.001, 0.001), stdev = 0.001
+  CI (99.9%): [0.001, 0.001] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_injectInto
+# Parameters: (size = 10000)
+
+# Run progress: 39.49% complete, ETA 00:23:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.012 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.011 ms/op
+Iteration   1: 0.011 ms/op
+Iteration   2: 0.011 ms/op
+Iteration   3: 0.011 ms/op
+Iteration   4: 0.011 ms/op
+Iteration   5: 0.011 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_injectInto":
+  0.011 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.011, 0.011, 0.011), stdev = 0.001
+  CI (99.9%): [0.011, 0.011] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_injectInto
+# Parameters: (size = 100000)
+
+# Run progress: 39.86% complete, ETA 00:23:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.130 ms/op
+# Warmup Iteration   2: 0.129 ms/op
+# Warmup Iteration   3: 0.129 ms/op
+Iteration   1: 0.129 ms/op
+Iteration   2: 0.129 ms/op
+Iteration   3: 0.129 ms/op
+Iteration   4: 0.129 ms/op
+Iteration   5: 0.129 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_injectInto":
+  0.129 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.129, 0.129, 0.129), stdev = 0.001
+  CI (99.9%): [0.129, 0.129] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_immutableList_injectInto
+# Parameters: (size = 1000000)
+
+# Run progress: 40.22% complete, ETA 00:23:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.165 ms/op
+# Warmup Iteration   2: 2.173 ms/op
+# Warmup Iteration   3: 2.044 ms/op
+Iteration   1: 2.042 ms/op
+Iteration   2: 2.048 ms/op
+Iteration   3: 2.036 ms/op
+Iteration   4: 2.020 ms/op
+Iteration   5: 2.021 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_immutableList_injectInto":
+  2.033 ±(99.9%) 0.048 ms/op [Average]
+  (min, avg, max) = (2.020, 2.033, 2.048), stdev = 0.012
+  CI (99.9%): [1.986, 2.081] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_intArrayList_sum
+# Parameters: (size = 1000)
+
+# Run progress: 40.58% complete, ETA 00:23:01
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_intArrayList_sum":
+  ≈ 10⁻³ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_intArrayList_sum
+# Parameters: (size = 10000)
+
+# Run progress: 40.94% complete, ETA 00:22:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_intArrayList_sum":
+  0.004 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.004, 0.004, 0.004), stdev = 0.001
+  CI (99.9%): [0.004, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_intArrayList_sum
+# Parameters: (size = 100000)
+
+# Run progress: 41.30% complete, ETA 00:22:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.037 ms/op
+# Warmup Iteration   2: 0.036 ms/op
+# Warmup Iteration   3: 0.036 ms/op
+Iteration   1: 0.036 ms/op
+Iteration   2: 0.036 ms/op
+Iteration   3: 0.036 ms/op
+Iteration   4: 0.036 ms/op
+Iteration   5: 0.036 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_intArrayList_sum":
+  0.036 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.036, 0.036, 0.036), stdev = 0.001
+  CI (99.9%): [0.036, 0.036] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_intArrayList_sum
+# Parameters: (size = 1000000)
+
+# Run progress: 41.67% complete, ETA 00:22:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.365 ms/op
+# Warmup Iteration   2: 0.362 ms/op
+# Warmup Iteration   3: 0.363 ms/op
+Iteration   1: 0.362 ms/op
+Iteration   2: 0.362 ms/op
+Iteration   3: 0.365 ms/op
+Iteration   4: 0.363 ms/op
+Iteration   5: 0.362 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_intArrayList_sum":
+  0.363 ±(99.9%) 0.005 ms/op [Average]
+  (min, avg, max) = (0.362, 0.363, 0.365), stdev = 0.001
+  CI (99.9%): [0.358, 0.367] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_longArrayList_sum
+# Parameters: (size = 1000)
+
+# Run progress: 42.03% complete, ETA 00:22:28
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻³ ms/op
+# Warmup Iteration   2: ≈ 10⁻³ ms/op
+# Warmup Iteration   3: ≈ 10⁻³ ms/op
+Iteration   1: ≈ 10⁻³ ms/op
+Iteration   2: ≈ 10⁻³ ms/op
+Iteration   3: ≈ 10⁻³ ms/op
+Iteration   4: ≈ 10⁻³ ms/op
+Iteration   5: ≈ 10⁻³ ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_longArrayList_sum":
+  ≈ 10⁻³ ms/op
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_longArrayList_sum
+# Parameters: (size = 10000)
+
+# Run progress: 42.39% complete, ETA 00:22:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.004 ms/op
+# Warmup Iteration   2: 0.004 ms/op
+# Warmup Iteration   3: 0.004 ms/op
+Iteration   1: 0.004 ms/op
+Iteration   2: 0.004 ms/op
+Iteration   3: 0.004 ms/op
+Iteration   4: 0.004 ms/op
+Iteration   5: 0.004 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_longArrayList_sum":
+  0.004 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.004, 0.004, 0.004), stdev = 0.001
+  CI (99.9%): [0.004, 0.004] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_longArrayList_sum
+# Parameters: (size = 100000)
+
+# Run progress: 42.75% complete, ETA 00:22:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.049 ms/op
+# Warmup Iteration   2: 0.049 ms/op
+# Warmup Iteration   3: 0.048 ms/op
+Iteration   1: 0.048 ms/op
+Iteration   2: 0.049 ms/op
+Iteration   3: 0.048 ms/op
+Iteration   4: 0.048 ms/op
+Iteration   5: 0.048 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_longArrayList_sum":
+  0.048 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.048, 0.048, 0.049), stdev = 0.001
+  CI (99.9%): [0.048, 0.049] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.List.ListBenchmark.traverse_longArrayList_sum
+# Parameters: (size = 1000000)
+
+# Run progress: 43.12% complete, ETA 00:22:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.486 ms/op
+# Warmup Iteration   2: 0.484 ms/op
+# Warmup Iteration   3: 0.484 ms/op
+Iteration   1: 0.483 ms/op
+Iteration   2: 0.483 ms/op
+Iteration   3: 0.483 ms/op
+Iteration   4: 0.483 ms/op
+Iteration   5: 0.483 ms/op
+
+
+Result "benchmark.List.ListBenchmark.traverse_longArrayList_sum":
+  0.483 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.483, 0.483, 0.483), stdev = 0.001
+  CI (99.9%): [0.482, 0.484] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_immutableMap_reject
+# Parameters: (size = 1000)
+
+# Run progress: 43.48% complete, ETA 00:21:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.066 ms/op
+# Warmup Iteration   2: 0.059 ms/op
+# Warmup Iteration   3: 0.059 ms/op
+Iteration   1: 0.059 ms/op
+Iteration   2: 0.058 ms/op
+Iteration   3: 0.058 ms/op
+Iteration   4: 0.059 ms/op
+Iteration   5: 0.059 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_immutableMap_reject":
+  0.059 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.058, 0.059, 0.059), stdev = 0.001
+  CI (99.9%): [0.056, 0.061] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_immutableMap_reject
+# Parameters: (size = 10000)
+
+# Run progress: 43.84% complete, ETA 00:21:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.616 ms/op
+# Warmup Iteration   2: 0.549 ms/op
+# Warmup Iteration   3: 0.549 ms/op
+Iteration   1: 0.556 ms/op
+Iteration   2: 0.544 ms/op
+Iteration   3: 0.543 ms/op
+Iteration   4: 0.542 ms/op
+Iteration   5: 0.543 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_immutableMap_reject":
+  0.546 ±(99.9%) 0.023 ms/op [Average]
+  (min, avg, max) = (0.542, 0.546, 0.556), stdev = 0.006
+  CI (99.9%): [0.523, 0.569] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_immutableMap_reject
+# Parameters: (size = 100000)
+
+# Run progress: 44.20% complete, ETA 00:21:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 11.883 ms/op
+# Warmup Iteration   2: 11.120 ms/op
+# Warmup Iteration   3: 11.410 ms/op
+Iteration   1: 10.873 ms/op
+Iteration   2: 11.290 ms/op
+Iteration   3: 11.212 ms/op
+Iteration   4: 11.540 ms/op
+Iteration   5: 11.909 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_immutableMap_reject":
+  11.365 ±(99.9%) 1.489 ms/op [Average]
+  (min, avg, max) = (10.873, 11.365, 11.909), stdev = 0.387
+  CI (99.9%): [9.876, 12.854] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_immutableMap_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 44.57% complete, ETA 00:21:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 140.211 ms/op
+# Warmup Iteration   2: 109.395 ms/op
+# Warmup Iteration   3: 109.126 ms/op
+Iteration   1: 110.637 ms/op
+Iteration   2: 108.531 ms/op
+Iteration   3: 108.469 ms/op
+Iteration   4: 109.098 ms/op
+Iteration   5: 109.079 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_immutableMap_reject":
+  109.163 ±(99.9%) 3.371 ms/op [Average]
+  (min, avg, max) = (108.469, 109.163, 110.637), stdev = 0.875
+  CI (99.9%): [105.792, 112.534] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intIntHashMap_reject
+# Parameters: (size = 1000)
+
+# Run progress: 44.93% complete, ETA 00:21:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.028 ms/op
+# Warmup Iteration   2: 0.027 ms/op
+# Warmup Iteration   3: 0.025 ms/op
+Iteration   1: 0.025 ms/op
+Iteration   2: 0.025 ms/op
+Iteration   3: 0.025 ms/op
+Iteration   4: 0.025 ms/op
+Iteration   5: 0.025 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intIntHashMap_reject":
+  0.025 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.025, 0.025, 0.025), stdev = 0.001
+  CI (99.9%): [0.025, 0.026] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intIntHashMap_reject
+# Parameters: (size = 10000)
+
+# Run progress: 45.29% complete, ETA 00:21:13
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.389 ms/op
+# Warmup Iteration   2: 0.350 ms/op
+# Warmup Iteration   3: 0.344 ms/op
+Iteration   1: 0.342 ms/op
+Iteration   2: 0.341 ms/op
+Iteration   3: 0.342 ms/op
+Iteration   4: 0.342 ms/op
+Iteration   5: 0.342 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intIntHashMap_reject":
+  0.342 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.341, 0.342, 0.342), stdev = 0.001
+  CI (99.9%): [0.340, 0.343] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intIntHashMap_reject
+# Parameters: (size = 100000)
+
+# Run progress: 45.65% complete, ETA 00:21:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.699 ms/op
+# Warmup Iteration   2: 2.921 ms/op
+# Warmup Iteration   3: 2.867 ms/op
+Iteration   1: 2.883 ms/op
+Iteration   2: 2.902 ms/op
+Iteration   3: 2.873 ms/op
+Iteration   4: 2.879 ms/op
+Iteration   5: 2.867 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intIntHashMap_reject":
+  2.881 ±(99.9%) 0.050 ms/op [Average]
+  (min, avg, max) = (2.867, 2.881, 2.902), stdev = 0.013
+  CI (99.9%): [2.830, 2.931] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intIntHashMap_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 46.01% complete, ETA 00:20:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 32.886 ms/op
+# Warmup Iteration   2: 26.524 ms/op
+# Warmup Iteration   3: 26.458 ms/op
+Iteration   1: 26.558 ms/op
+Iteration   2: 26.631 ms/op
+Iteration   3: 26.488 ms/op
+Iteration   4: 26.422 ms/op
+Iteration   5: 26.309 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intIntHashMap_reject":
+  26.482 ±(99.9%) 0.477 ms/op [Average]
+  (min, avg, max) = (26.309, 26.482, 26.631), stdev = 0.124
+  CI (99.9%): [26.005, 26.958] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject
+# Parameters: (size = 1000)
+
+# Run progress: 46.38% complete, ETA 00:20:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.034 ms/op
+# Warmup Iteration   2: 0.030 ms/op
+# Warmup Iteration   3: 0.030 ms/op
+Iteration   1: 0.030 ms/op
+Iteration   2: 0.030 ms/op
+Iteration   3: 0.030 ms/op
+Iteration   4: 0.030 ms/op
+Iteration   5: 0.030 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject":
+  0.030 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.030, 0.030, 0.030), stdev = 0.001
+  CI (99.9%): [0.030, 0.030] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject
+# Parameters: (size = 10000)
+
+# Run progress: 46.74% complete, ETA 00:20:39
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.461 ms/op
+# Warmup Iteration   2: 0.411 ms/op
+# Warmup Iteration   3: 0.415 ms/op
+Iteration   1: 0.415 ms/op
+Iteration   2: 0.413 ms/op
+Iteration   3: 0.415 ms/op
+Iteration   4: 0.416 ms/op
+Iteration   5: 0.415 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject":
+  0.415 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.413, 0.415, 0.416), stdev = 0.001
+  CI (99.9%): [0.411, 0.418] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject
+# Parameters: (size = 100000)
+
+# Run progress: 47.10% complete, ETA 00:20:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.009 ms/op
+# Warmup Iteration   2: 3.536 ms/op
+# Warmup Iteration   3: 3.632 ms/op
+Iteration   1: 3.551 ms/op
+Iteration   2: 3.542 ms/op
+Iteration   3: 3.540 ms/op
+Iteration   4: 3.543 ms/op
+Iteration   5: 3.536 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject":
+  3.543 ±(99.9%) 0.021 ms/op [Average]
+  (min, avg, max) = (3.536, 3.543, 3.551), stdev = 0.006
+  CI (99.9%): [3.521, 3.564] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 47.46% complete, ETA 00:20:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 66.099 ms/op
+# Warmup Iteration   2: 50.119 ms/op
+# Warmup Iteration   3: 48.212 ms/op
+Iteration   1: 49.125 ms/op
+Iteration   2: 50.112 ms/op
+Iteration   3: 48.798 ms/op
+Iteration   4: 46.599 ms/op
+Iteration   5: 48.315 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_intObjectHashMap_reject":
+  48.590 ±(99.9%) 4.978 ms/op [Average]
+  (min, avg, max) = (46.599, 48.590, 50.112), stdev = 1.293
+  CI (99.9%): [43.612, 53.568] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_unifiedMap_reject
+# Parameters: (size = 1000)
+
+# Run progress: 47.83% complete, ETA 00:20:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.048 ms/op
+# Warmup Iteration   2: 0.043 ms/op
+# Warmup Iteration   3: 0.043 ms/op
+Iteration   1: 0.043 ms/op
+Iteration   2: 0.043 ms/op
+Iteration   3: 0.046 ms/op
+Iteration   4: 0.046 ms/op
+Iteration   5: 0.046 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_unifiedMap_reject":
+  0.045 ±(99.9%) 0.006 ms/op [Average]
+  (min, avg, max) = (0.043, 0.045, 0.046), stdev = 0.001
+  CI (99.9%): [0.039, 0.050] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_unifiedMap_reject
+# Parameters: (size = 10000)
+
+# Run progress: 48.19% complete, ETA 00:20:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.456 ms/op
+# Warmup Iteration   2: 0.408 ms/op
+# Warmup Iteration   3: 0.398 ms/op
+Iteration   1: 0.394 ms/op
+Iteration   2: 0.391 ms/op
+Iteration   3: 0.392 ms/op
+Iteration   4: 0.392 ms/op
+Iteration   5: 0.392 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_unifiedMap_reject":
+  0.392 ±(99.9%) 0.004 ms/op [Average]
+  (min, avg, max) = (0.391, 0.392, 0.394), stdev = 0.001
+  CI (99.9%): [0.388, 0.396] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_unifiedMap_reject
+# Parameters: (size = 100000)
+
+# Run progress: 48.55% complete, ETA 00:19:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 8.414 ms/op
+# Warmup Iteration   2: 8.073 ms/op
+# Warmup Iteration   3: 8.183 ms/op
+Iteration   1: 7.917 ms/op
+Iteration   2: 7.843 ms/op
+Iteration   3: 8.279 ms/op
+Iteration   4: 7.913 ms/op
+Iteration   5: 8.130 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_unifiedMap_reject":
+  8.016 ±(99.9%) 0.701 ms/op [Average]
+  (min, avg, max) = (7.843, 8.016, 8.279), stdev = 0.182
+  CI (99.9%): [7.316, 8.717] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.delete_unifiedMap_reject
+# Parameters: (size = 1000000)
+
+# Run progress: 48.91% complete, ETA 00:19:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 102.721 ms/op
+# Warmup Iteration   2: 87.366 ms/op
+# Warmup Iteration   3: 85.804 ms/op
+Iteration   1: 84.739 ms/op
+Iteration   2: 82.312 ms/op
+Iteration   3: 83.650 ms/op
+Iteration   4: 88.846 ms/op
+Iteration   5: 84.409 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.delete_unifiedMap_reject":
+  84.791 ±(99.9%) 9.439 ms/op [Average]
+  (min, avg, max) = (82.312, 84.791, 88.846), stdev = 2.451
+  CI (99.9%): [75.352, 94.230] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_immutableMap
+# Parameters: (size = 1000)
+
+# Run progress: 49.28% complete, ETA 00:19:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.044 ms/op
+# Warmup Iteration   2: 0.041 ms/op
+# Warmup Iteration   3: 0.040 ms/op
+Iteration   1: 0.040 ms/op
+Iteration   2: 0.039 ms/op
+Iteration   3: 0.038 ms/op
+Iteration   4: 0.038 ms/op
+Iteration   5: 0.038 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_immutableMap":
+  0.038 ±(99.9%) 0.004 ms/op [Average]
+  (min, avg, max) = (0.038, 0.038, 0.040), stdev = 0.001
+  CI (99.9%): [0.035, 0.042] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_immutableMap
+# Parameters: (size = 10000)
+
+# Run progress: 49.64% complete, ETA 00:19:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.418 ms/op
+# Warmup Iteration   2: 0.397 ms/op
+# Warmup Iteration   3: 0.372 ms/op
+Iteration   1: 0.373 ms/op
+Iteration   2: 0.372 ms/op
+Iteration   3: 0.373 ms/op
+Iteration   4: 0.371 ms/op
+Iteration   5: 0.373 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_immutableMap":
+  0.372 ±(99.9%) 0.003 ms/op [Average]
+  (min, avg, max) = (0.371, 0.372, 0.373), stdev = 0.001
+  CI (99.9%): [0.370, 0.375] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_immutableMap
+# Parameters: (size = 100000)
+
+# Run progress: 50.00% complete, ETA 00:19:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 11.298 ms/op
+# Warmup Iteration   2: 11.241 ms/op
+# Warmup Iteration   3: 11.053 ms/op
+Iteration   1: 11.691 ms/op
+Iteration   2: 10.680 ms/op
+Iteration   3: 11.262 ms/op
+Iteration   4: 11.396 ms/op
+Iteration   5: 10.908 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_immutableMap":
+  11.188 ±(99.9%) 1.538 ms/op [Average]
+  (min, avg, max) = (10.680, 11.188, 11.691), stdev = 0.399
+  CI (99.9%): [9.649, 12.726] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_immutableMap
+# Parameters: (size = 1000000)
+
+# Run progress: 50.36% complete, ETA 00:19:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 101.775 ms/op
+# Warmup Iteration   2: 97.898 ms/op
+# Warmup Iteration   3: 95.337 ms/op
+Iteration   1: 102.987 ms/op
+Iteration   2: 98.988 ms/op
+Iteration   3: 100.633 ms/op
+Iteration   4: 92.251 ms/op
+Iteration   5: 106.221 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_immutableMap":
+  100.216 ±(99.9%) 20.087 ms/op [Average]
+  (min, avg, max) = (92.251, 100.216, 106.221), stdev = 5.217
+  CI (99.9%): [80.129, 120.303] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intIntHashMap
+# Parameters: (size = 1000)
+
+# Run progress: 50.72% complete, ETA 00:19:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.011 ms/op
+# Warmup Iteration   3: 0.010 ms/op
+Iteration   1: 0.011 ms/op
+Iteration   2: 0.010 ms/op
+Iteration   3: 0.010 ms/op
+Iteration   4: 0.010 ms/op
+Iteration   5: 0.010 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intIntHashMap":
+  0.010 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.010, 0.010, 0.011), stdev = 0.001
+  CI (99.9%): [0.010, 0.011] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intIntHashMap
+# Parameters: (size = 10000)
+
+# Run progress: 51.09% complete, ETA 00:19:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.155 ms/op
+# Warmup Iteration   2: 0.130 ms/op
+# Warmup Iteration   3: 0.130 ms/op
+Iteration   1: 0.129 ms/op
+Iteration   2: 0.133 ms/op
+Iteration   3: 0.131 ms/op
+Iteration   4: 0.129 ms/op
+Iteration   5: 0.129 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intIntHashMap":
+  0.131 ±(99.9%) 0.007 ms/op [Average]
+  (min, avg, max) = (0.129, 0.131, 0.133), stdev = 0.002
+  CI (99.9%): [0.124, 0.138] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intIntHashMap
+# Parameters: (size = 100000)
+
+# Run progress: 51.45% complete, ETA 00:18:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.422 ms/op
+# Warmup Iteration   2: 1.175 ms/op
+# Warmup Iteration   3: 1.180 ms/op
+Iteration   1: 1.175 ms/op
+Iteration   2: 1.206 ms/op
+Iteration   3: 1.173 ms/op
+Iteration   4: 1.169 ms/op
+Iteration   5: 1.171 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intIntHashMap":
+  1.179 ±(99.9%) 0.059 ms/op [Average]
+  (min, avg, max) = (1.169, 1.179, 1.206), stdev = 0.015
+  CI (99.9%): [1.120, 1.237] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intIntHashMap
+# Parameters: (size = 1000000)
+
+# Run progress: 51.81% complete, ETA 00:18:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.860 ms/op
+# Warmup Iteration   2: 10.863 ms/op
+# Warmup Iteration   3: 10.851 ms/op
+Iteration   1: 10.726 ms/op
+Iteration   2: 10.774 ms/op
+Iteration   3: 10.780 ms/op
+Iteration   4: 10.779 ms/op
+Iteration   5: 10.731 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intIntHashMap":
+  10.758 ±(99.9%) 0.105 ms/op [Average]
+  (min, avg, max) = (10.726, 10.758, 10.780), stdev = 0.027
+  CI (99.9%): [10.653, 10.863] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intObjectHashMap
+# Parameters: (size = 1000)
+
+# Run progress: 52.17% complete, ETA 00:18:35
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.017 ms/op
+# Warmup Iteration   2: 0.014 ms/op
+# Warmup Iteration   3: 0.014 ms/op
+Iteration   1: 0.014 ms/op
+Iteration   2: 0.014 ms/op
+Iteration   3: 0.014 ms/op
+Iteration   4: 0.014 ms/op
+Iteration   5: 0.014 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intObjectHashMap":
+  0.014 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.014, 0.014, 0.014), stdev = 0.001
+  CI (99.9%): [0.014, 0.014] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intObjectHashMap
+# Parameters: (size = 10000)
+
+# Run progress: 52.54% complete, ETA 00:18:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.212 ms/op
+# Warmup Iteration   2: 0.167 ms/op
+# Warmup Iteration   3: 0.168 ms/op
+Iteration   1: 0.167 ms/op
+Iteration   2: 0.167 ms/op
+Iteration   3: 0.168 ms/op
+Iteration   4: 0.167 ms/op
+Iteration   5: 0.167 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intObjectHashMap":
+  0.167 ±(99.9%) 0.001 ms/op [Average]
+  (min, avg, max) = (0.167, 0.167, 0.168), stdev = 0.001
+  CI (99.9%): [0.166, 0.169] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intObjectHashMap
+# Parameters: (size = 100000)
+
+# Run progress: 52.90% complete, ETA 00:18:18
+# Fork: 1 of 1
+# Warmup Iteration   1: 4.563 ms/op
+# Warmup Iteration   2: 3.985 ms/op
+# Warmup Iteration   3: 3.351 ms/op
+Iteration   1: 3.455 ms/op
+Iteration   2: 3.517 ms/op
+Iteration   3: 3.417 ms/op
+Iteration   4: 4.009 ms/op
+Iteration   5: 3.802 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intObjectHashMap":
+  3.640 ±(99.9%) 0.984 ms/op [Average]
+  (min, avg, max) = (3.417, 3.640, 4.009), stdev = 0.256
+  CI (99.9%): [2.656, 4.624] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_intObjectHashMap
+# Parameters: (size = 1000000)
+
+# Run progress: 53.26% complete, ETA 00:18:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 40.120 ms/op
+# Warmup Iteration   2: 34.007 ms/op
+# Warmup Iteration   3: 27.964 ms/op
+Iteration   1: 32.407 ms/op
+Iteration   2: 29.081 ms/op
+Iteration   3: 29.548 ms/op
+Iteration   4: 32.590 ms/op
+Iteration   5: 27.302 ms/op
+
+
+Result "benchmark.Map.MapBenchmark.insert_intObjectHashMap":
+  30.186 ±(99.9%) 8.750 ms/op [Average]
+  (min, avg, max) = (27.302, 30.186, 32.590), stdev = 2.272
+  CI (99.9%): [21.435, 38.936] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 17.0.18, OpenJDK 64-Bit Server VM, 17.0.18+8-Debian-1deb11u1
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Map.MapBenchmark.insert_unifiedMap
+# Parameters: (size = 1000)
+
+# Run progress: 53.62% complete, ETA 00:18:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.022 ms/op
+# Warmup Iteration   2: 0.018 ms/op
+# Warmup Iteration   3: 0.020 ms/op
+Iteration   1: 

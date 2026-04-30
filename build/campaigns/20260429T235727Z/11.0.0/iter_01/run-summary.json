@@ -1,0 +1,51 @@
+{
+  "version": "11.0.0",
+  "iteration": 1,
+  "node": "",
+  "site": "lyon",
+  "job_id": "",
+  "metrics": [
+    "wattmetre_power_watt",
+    "bmc_power_watt",
+    "rapl_package_energy_joule",
+    "rapl_dram_energy_joule",
+    "rapl_uncore_energy_joule"
+  ],
+  "idle_window": {
+    "start": "2026-04-30T08:27:38.560061Z",
+    "end": "2026-04-30T08:27:58.580128Z",
+    "duration_seconds": 20
+  },
+  "jmh_command": [
+    "java",
+    "-jar",
+    "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/libs/jmh-eclipse-benchmark-jmh.jar",
+    ".*",
+    "-rf",
+    "JSON",
+    "-rff",
+    "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/campaigns/20260429T235727Z/11.0.0/iter_01/jmh-results.json",
+    "-o",
+    "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection/build/campaigns/20260429T235727Z/11.0.0/iter_01/jmh-human.txt",
+    "-i",
+    "5",
+    "-wi",
+    "3",
+    "-f",
+    "1",
+    "-r",
+    "1s",
+    "-w",
+    "1s",
+    "-tu",
+    "ms",
+    "-bm",
+    "avgt"
+  ],
+  "started_at": "2026-04-30T08:27:58.580348Z",
+  "ended_at": "2026-04-30T09:07:01.170655Z",
+  "duration_seconds": 2342.590307,
+  "exit_code": 0,
+  "kwollect_benchmark_error": "HTTP Error 500: Internal Server Error",
+  "kwollect_idle_error": "HTTP Error 500: Internal Server Error"
+}

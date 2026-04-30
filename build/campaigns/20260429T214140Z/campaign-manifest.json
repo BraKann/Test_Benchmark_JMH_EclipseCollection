@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-04-29T21:41:40.365293Z",
+  "repo_root": "/home/cchiaber/Test_Benchmark_JMH_EclipseCollection",
+  "site": "lyon",
+  "node": "",
+  "job_id": "2025154",
+  "metrics": [
+    "wattmetre_power_watt",
+    "bmc_power_watt",
+    "rapl_package_energy_joule",
+    "rapl_dram_energy_joule",
+    "rapl_uncore_energy_joule"
+  ],
+  "versions": [
+    "7.1.2",
+    "8.1.0",
+    "8.2.0",
+    "9.2.0",
+    "10.2.0",
+    "10.4.0",
+    "11.0.0",
+    "11.1.0",
+    "12.0.0",
+    "13.0.0"
+  ],
+  "campaign_repeats": 2,
+  "runs": []
+}
